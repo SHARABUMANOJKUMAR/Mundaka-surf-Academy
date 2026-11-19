@@ -1,0 +1,30 @@
+/* Interactions — cursor follower and hover lifts. Pointer-only effects stay off on touch and with reduced motion. */
+.cursor { position: fixed; left: 0; top: 0; z-index: 90; width: 0; height: 0; pointer-events: none; opacity: 0; transition: opacity 0.3s; }
+.cursor.is-active { opacity: 1; }
+.cursor__ring {
+  position: absolute; left: -18px; top: -18px; width: 36px; height: 36px; border-radius: 50%;
+  border: 1.5px solid rgba(0, 74, 92, 0.4); background: rgba(48, 203, 198, 0.08);
+  transition: transform 0.45s var(--ease), background 0.35s, border-color 0.35s;
+}
+.cursor.is-link .cursor__ring { transform: scale(1.55); background: rgba(48, 203, 198, 0.2); border-color: var(--turq); }
+.cursor.is-media .cursor__ring { transform: scale(2.6); background: var(--turq); border-color: var(--turq); }
+.cursor.is-down .cursor__ring { transform: scale(0.8); }
+.cursor.is-media.is-down .cursor__ring { transform: scale(2.3); }
+.cursor__label {
+  position: absolute; left: 0; top: 0; transform: translate(-50%, -50%) scale(0.6); opacity: 0;
+  font: 700 0.66rem/1 var(--font-head); letter-spacing: 0.14em; text-transform: uppercase; color: var(--deep); white-space: nowrap;
+  transition: opacity 0.3s, transform 0.45s var(--ease);
+}
+.cursor.is-media .cursor__label { opacity: 1; transform: translate(-50%, -50%) scale(1); }
+@media (pointer: coarse), (prefers-reduced-motion: reduce) { .cursor { display: none; } }
+
+.class-card, .team-card, .review-card, .info-card, .link-card, .type-option__body, .gallery__item img, .class-card__img img, .lesson__photo img {
+  transition: transform 0.6s var(--ease), box-shadow 0.6s var(--ease), background 0.35s, border-color 0.35s, color 0.3s;
+}
+@media (hover: hover) {
+  .class-card:hover, .link-card:hover, .team-card:hover { transform: translateY(-6px); box-shadow: var(--shadow); }
+  .class-card:hover .class-card__img img { transform: scale(1.06); }
+  .info-card:hover { transform: translateY(-4px); }
+  .gallery__item:hover img { transform: scale(1.06); }
+  .review-card:hover { transform: translateY(-4px); box-shadow: var(--shadow-soft); }
+}

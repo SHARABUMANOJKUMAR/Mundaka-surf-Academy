@@ -1,0 +1,181 @@
+{
+  "$comment": "Lessons and prices (website brief, section 6; client feedback 3). Editable without rebuilding for the booking form and the server; run `npm run build` to refresh the price tables printed on the pages. price.unit: 'personHour' (amount per person per hour, choose hours; optional groupRates [{ people, amount }] = the rate per person for that group size, and maxPeople) or 'package' (amount per person for N days).",
+  "updated": "2026-11-16",
+  "currency": "EUR",
+  "plans": [
+    {
+      "id": "group",
+      "image": "stock-group-women",
+      "name": {
+        "es": "Clases en grupo (Iniciación)",
+        "en": "Group lessons (Beginners)"
+      },
+      "summary": {
+        "es": "Tus primeras olas en la playa de Laida: sesiones de 2 horas.",
+        "en": "Your first waves at Laida beach: 2-hour sessions."
+      },
+      "levels": [
+        "beginner"
+      ],
+      "price": {
+        "unit": "package",
+        "currency": "EUR",
+        "packages": [
+          {
+            "days": 1,
+            "hours": 2,
+            "amount": 35
+          },
+          {
+            "days": 2,
+            "hours": 4,
+            "amount": 70
+          },
+          {
+            "days": 3,
+            "hours": 6,
+            "amount": 100
+          },
+          {
+            "days": 4,
+            "hours": 8,
+            "amount": 120
+          },
+          {
+            "days": 5,
+            "hours": 10,
+            "amount": 135
+          },
+          {
+            "days": 7,
+            "hours": 14,
+            "amount": 160
+          }
+        ]
+      },
+      "bookable": true
+    },
+    {
+      "id": "advanced",
+      "image": "green-curl",
+      "name": {
+        "es": "Grupos avanzados y técnicos",
+        "en": "Advanced and technical groups"
+      },
+      "summary": {
+        "es": "Para surfistas de nivel intermedio y avanzado: seguimiento y corrección técnica.",
+        "en": "For intermediate and advanced surfers: session follow-up and technique correction."
+      },
+      "levels": [
+        "intermediate",
+        "advanced"
+      ],
+      "price": {
+        "unit": "package",
+        "currency": "EUR",
+        "packages": [
+          {
+            "days": 1,
+            "hours": 2,
+            "amount": 35
+          },
+          {
+            "days": 2,
+            "hours": 4,
+            "amount": 70
+          },
+          {
+            "days": 3,
+            "hours": 6,
+            "amount": 100
+          },
+          {
+            "days": 4,
+            "hours": 8,
+            "amount": 120
+          },
+          {
+            "days": 5,
+            "hours": 10,
+            "amount": 135
+          },
+          {
+            "days": 7,
+            "hours": 14,
+            "amount": 160
+          }
+        ]
+      },
+      "bookable": true
+    },
+    {
+      "id": "private",
+      "image": "stock-private",
+      "name": {
+        "es": "Clases privadas",
+        "en": "Private lessons"
+      },
+      "summary": {
+        "es": "Clases personalizadas de 1 hora para grupos de 1–3 personas.",
+        "en": "Personalized 1-hour lessons for groups of 1–3 people."
+      },
+      "levels": [
+        "beginner",
+        "intermediate",
+        "advanced"
+      ],
+      "price": {
+        "unit": "personHour",
+        "amount": 60,
+        "currency": "EUR",
+        "hours": [
+          1
+        ],
+        "groupRates": [
+          {
+            "people": 1,
+            "amount": 60
+          },
+          {
+            "people": 2,
+            "amount": 55
+          },
+          {
+            "people": 3,
+            "amount": 50
+          }
+        ]
+      },
+      "bookable": true,
+      "maxPeople": 3
+    },
+    {
+      "id": "inclusive",
+      "image": "inclusive-laida",
+      "name": {
+        "es": "Clases inclusivas",
+        "en": "Inclusive lessons"
+      },
+      "summary": {
+        "es": "Surf adaptado para personas con movilidad reducida, en la playa de Laida.",
+        "en": "Adapted surf for people with reduced mobility, at Laida beach."
+      },
+      "levels": [
+        "beginner",
+        "intermediate",
+        "advanced"
+      ],
+      "price": {
+        "unit": "personHour",
+        "amount": 50,
+        "currency": "EUR",
+        "hours": [
+          1,
+          2,
+          3
+        ]
+      },
+      "bookable": true
+    }
+  ]
+}

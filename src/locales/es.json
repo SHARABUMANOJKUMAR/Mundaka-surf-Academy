@@ -1,0 +1,786 @@
+{
+  "common": {
+    "skip": "Saltar al contenido",
+    "language": "Idioma",
+    "tbc": "Por confirmar",
+    "from": "desde",
+    "ogLocale": "es_ES",
+    "waMessage": "¡Hola! Me gustaría reservar una clase.",
+    "levels": {
+      "beginner": "Iniciación",
+      "intermediate": "Intermedio",
+      "advanced": "Avanzado"
+    },
+    "nav": {
+      "label": "Menú principal",
+      "menu": "Menú",
+      "home": "Inicio",
+      "about": "Nuestra historia",
+      "team": "Instructores",
+      "lessons": "Clases",
+      "surf": "Surf y tiempo",
+      "gallery": "Galería",
+      "faq": "FAQ",
+      "contact": "Contacto",
+      "footer": "Páginas",
+      "legal": "Información legal",
+      "legalNotice": "Aviso legal",
+      "privacy": "Privacidad",
+      "cookies": "Cookies",
+      "conditions": "Condiciones de reserva"
+    },
+    "cta": {
+      "bookNow": "Reservar",
+      "whatsapp": "WhatsApp",
+      "whatsappAria": "Escríbenos por WhatsApp",
+      "directions": "Cómo llegar"
+    },
+    "embed": {
+      "mapTitle": "Mapa: Mundaka Surf Academy, Erreka 6, Mundaka",
+      "mapText": "El mapa interactivo es de Google Maps, que usa cookies: se carga al pulsar el botón o al aceptar las cookies.",
+      "mapLoad": "Ver mapa interactivo",
+      "windguruText": "Previsión de olas, viento y periodo de Windguru para Mundaka. Se carga al aceptar las cookies o al pulsar el botón.",
+      "aemetText": "Previsión del tiempo de AEMET para Mundaka. Se carga al aceptar las cookies o al pulsar el botón.",
+      "forecastLoad": "Ver previsión",
+      "mapAlt": "Mapa de la zona de Erreka, en Mundaka, con la ubicación de Mundaka Surf Academy (Erreka 6)"
+    },
+    "more": {
+      "photos": "Ver más fotos"
+    }
+  },
+  "footer": {
+    "tagline": "Escuela de surf en Mundaka, Bizkaia. Clases privadas, en grupo y avanzadas para todas las edades.",
+    "contactTitle": "Contacto",
+    "exploreTitle": "La escuela",
+    "followTitle": "Síguenos",
+    "partners": "Supported by",
+    "partnersPending": "Espacio reservado para las marcas colaboradoras (p. ej. Billabong): se añadirán cuando la academia envíe los logos."
+  },
+  "home": {
+    "meta": {
+      "title": "Mundaka Surf Academy — Escuela de surf en Mundaka, Bizkaia",
+      "description": "Clases de surf en Mundaka: en grupo, grupos avanzados, privadas e inclusivas. Reserva online en el calendario de mareas."
+    },
+    "hero": {
+      "h1": "escuela de surf en Mundaka, Bizkaia",
+      "tagline": "Clases de surf en la ola izquierda más famosa de Europa, para todos los niveles.",
+      "photoAlt": "El tubo de Mundaka con un surfista dentro y otros esperando en el pico",
+      "videoAlt": "Vista aérea de los bancos de arena de Laida y el estuario de Urdaibai, con Mundaka al fondo"
+    },
+    "xabi": {
+      "eyebrow": "El fundador",
+      "title": "Xabier Gondra León",
+      "p1": "Me llamo Xabier Gondra León, soy surfista local de Mundaka y mi vínculo con el mar comenzó con tan solo cinco años. Desde entonces, este deporte se ha convertido en mi absoluta pasión y en mi forma de vida. Crecer en un entorno como el de Mundaka marca tu trayectoria, y montar mi propia escuela de surf es la culminación de un sueño por el que llevo luchando muchos años.",
+      "p2": "La enseñanza forma parte de mi día a día desde los 16 años, edad en la que comencé a dar clases de surf. Disfruto transmitiendo mis conocimientos, entrenando con los alumnos y guiando su evolución en el agua con un firme respeto por el entorno marino. Para desarrollar esta labor con las máximas garantías de seguridad y profesionalidad, cuento con la titulación oficial de monitor de surf, además de estar formado en socorrismo y primeros auxilios. Si quieres aprender o mejorar tu técnica, nos vemos en el agua.",
+      "cta": "Nuestra historia",
+      "photoAlt": "Xabi con su tabla de surf en Mundaka"
+    },
+    "where": {
+      "eyebrow": "Nuestro local",
+      "title": "En el corazón de Mundaka",
+      "text": "Las clases empiezan en nuestro local, en el Barrio de Erreka, 6. Desde aquí vamos a la playa con el monitor."
+    },
+    "forecast": {
+      "eyebrow": "Hoy en el agua",
+      "title": "Olas y tiempo en Mundaka",
+      "lead": "Previsión de olas y tiempo para Mundaka, directamente aquí.",
+      "more": "Previsión completa"
+    },
+    "classes": {
+      "eyebrow": "Nuestras clases",
+      "title": "Cuatro formas de aprender",
+      "all": "Todas las clases y precios",
+      "more": "Ver clase"
+    },
+    "reviews": {
+      "eyebrow": "Opiniones",
+      "title": "Lo que dicen nuestros alumnos",
+      "google": "Ver reseñas en Google",
+      "rating": "{n} de 5 estrellas",
+      "placeholder": "Aquí aparecerá la opinión de un alumno, con su nombre, la fecha y la valoración.",
+      "placeholderName": "Nombre del alumno · fecha",
+      "pending": "Pendiente: opiniones de clientes (o el enlace a las reseñas de Google) que enviará la academia. Este bloque de ejemplo solo se ve en modo revisión."
+    }
+  },
+  "about": {
+    "meta": {
+      "title": "Nuestra historia — Mundaka Surf Academy",
+      "description": "La historia de Mundaka Surf Academy, escuela de surf en Mundaka, Bizkaia."
+    },
+    "eyebrow": "Mundaka Surf Academy",
+    "title": "Nuestra historia",
+    "storyTitle": "Mundaka Surf Academy",
+    "p1": "Mundaka Surf Academy nace de un proyecto vital y de la ilusión de un niño que siempre soñó con tener su propia escuela de surf y dedicarse por completo al mar. Fundada por un joven surfista local de 20 años que lleva sobre la tabla desde los cinco, la academia se consolida como un espacio donde la experiencia en el agua se une a la profesionalidad para ofrecer una enseñanza de calidad.",
+    "p2": "Aunque el proyecto parte de una iniciativa personal, esta escuela no se entiende sin el apoyo de los amigos de toda la vida, quienes forman parte del equipo como monitores titulados. Compartimos una misma visión del surf, basada en años de vivencias en el agua y en el compromiso de ofrecer un aprendizaje riguroso, seguro y adaptado a cada alumno, respaldado por la formación oficial en monitorado, socorrismo y primeros auxilios.",
+    "p3": "Más allá de la práctica deportiva, en Mundaka Surf Academy mantenemos un vínculo profundo y de absoluto respeto hacia la Reserva de la Biosfera de Urdaibai y la costa de Mundaka. Entendemos nuestro entorno como un hogar que hay que cuidar y proteger, inculcando en cada clase el respeto por las corrientes, las mareas y la cultura marinera de la zona. Aquí no solo se aprende a coger olas, sino a entender y vivir el mar con la seriedad que merece.",
+    "note": "Pendiente: la academia enviará más adelante fotos de calidad de Mundaka y de la escuela.",
+    "photoAlt": "Una ola dorada al atardecer frente a los acantilados de Mundaka",
+    "nextTitle": "Sigue explorando",
+    "toTeam": "Conoce a los monitores",
+    "toLessons": "Clases y precios",
+    "toGallery": "Fotos de las clases",
+    "lead": "Una escuela de surf en una de las olas más famosas de Europa, en plena Reserva de la Biosfera de Urdaibai.",
+    "wave": {
+      "eyebrow": "La ola",
+      "title": "La ola izquierda de Mundaka",
+      "p1": "Mundaka no es solo una ola; es un mito viviente del surf mundial. Situada en la Reserva de la Biosfera de Urdaibai, esta izquierda está considerada una de las olas más perfectas, largas y estéticas del planeta. Cuando las condiciones se alinean, Mundaka ofrece un tubo hueco, pesado y kilométrico que recorre la barra de arena de la ría, convirtiéndose en el sueño de cualquier surfista avanzado y profesional.",
+      "p2": "La magia de Mundaka nace de una combinación perfecta entre la geodinámica de la ría y la batimetría del fondo marino. La desembocadura del río Urdaibai arrastra sedimentos que moldean una barra de arena precisa donde el oleaje procedente del Atlántico entra por la bocana y quiebra con fuerza. La ola rompe inicialmente con una potencia tremenda y abre una pared larguísima que puede superar los 300 o 400 metros de recorrido en días óptimos, permitiendo al surfista entubar sección tras sección mientras la ola acelera sobre la lámina de agua. Todo esto funciona principalmente con marea baja tirando a media, requiriendo un tamaño y dirección de norte o noroeste muy específicos.",
+      "altB": "Surfista dentro de un tubo azul en Mundaka",
+      "altC": "Surfista en una pared verde",
+      "p3": "Lo que hace única a Mundaka es su consistencia técnica y la velocidad vertiginosa que adquiere dentro del tubo. Al romper sobre arena, exige una lectura milimétrica de la ola y un dominio absoluto del take-off y el posicionamiento frente a la inmensa fuerza del agua. Es una izquierda pura, exigente y de clase mundial que pone a prueba a los mejores surfistas del panorama internacional.",
+      "p4": "Su fama traspasó fronteras hace décadas, consolidándose como un referente global y albergando durante años el <em>Billabong Pro Mundaka</em>, una de las pruebas más importantes del circuito mundial profesional de surf (ASP/WSL). Leyendas de la talla de Andy Irons, Kelly Slater o Mark Occhilupo han consagrado esta ola como una de sus favoritas absolutas. Protegida y surfeada con respeto por la comunidad local vasca, Mundaka representa la esencia más pura del surf de norte: autenticidad, respeto en el agua y una conexión inquebrantable con el mar."
+    },
+    "find": {
+      "eyebrow": "Dónde estamos",
+      "title": "Dónde estamos: la costa vasca",
+      "text": "Toca las ciudades del mapa para ver lo lejos que está Mundaka y acércate a la costa vasca."
+    },
+    "urdaibai": {
+      "eyebrow": "Urdaibai",
+      "title": "Reserva de la Biosfera de Urdaibai",
+      "p1": "Situada en el corazón de Urdaibai, nuestra escuela opera en uno de los entornos naturales más privilegiados y singulares de Europa. Declarada <strong>Reserva de la Biosfera por la UNESCO</strong> en 1984, esta área protegida abarca un impresionante mosaico de marismas, estuarios, acantilados y playas de extraordinaria riqueza ecológica y paisajística. El río Urdaibai desemboca formando un estuario único que no solo sustenta una biodiversidad inigualable de flora y fauna migratoria, sino que actúa como el motor geográfico directo que modela la legendaria barra de arena de Mundaka. Surfear aquí significa conectar con un territorio protegido de valor incalculable, donde el respeto absoluto por el medio ambiente y la conservación de la naturaleza forman parte de nuestra identidad diaria.",
+      "alt": "La ría de Urdaibai desde el aire, con Mundaka y la playa de Laida",
+      "caption": "La ría de Urdaibai desde el aire: Mundaka a la izquierda, la playa de Laida a la derecha."
+    },
+    "strip": {
+      "eyebrow": "Nuestro mar",
+      "title": "Mundaka en fotos",
+      "a1": "Surfista en la espuma",
+      "a2": "Saliendo del agua con la tabla",
+      "a3": "Spray a contraluz en Mundaka",
+      "a4": "Tubo gris en un día de mar grande",
+      "a5": "Surfista en una pared de ola",
+      "a6": "Surfista deslizándose por una ola verde"
+    },
+    "photoBy": "Foto:",
+    "photosBy": "Fotos:"
+  },
+  "team": {
+    "meta": {
+      "title": "Instructores — Mundaka Surf Academy",
+      "description": "Los monitores de Mundaka Surf Academy, con sus titulaciones."
+    },
+    "eyebrow": "El equipo",
+    "title": "Instructores",
+    "lead": "Monitores titulados y con amplia experiencia laboral en los mares de Mundaka.",
+    "gridTitle": "Fichas de los instructores",
+    "note": "Pendiente: la foto de cada monitor y la foto de grupo (llegan en el próximo envío de la academia).",
+    "end": "¿Quieres saber con quién harás tu clase? Escríbenos.",
+    "photoPending": "Foto pendiente",
+    "bioPending": "Biografía pendiente",
+    "certsPending": "Titulaciones pendientes",
+    "certsTitle": "Titulaciones",
+    "photoNote": "Foto provisional: se sustituirá por la foto de grupo de todos los monitores.",
+    "approach": {
+      "eyebrow": "Nuestra forma de enseñar",
+      "title": "Cómo enseñamos",
+      "lead": "Cuatro ideas detrás de cada clase, sea cual sea tu monitor.",
+      "a": {
+        "title": "Cada nivel tiene un siguiente paso",
+        "text": "De coger espuma a trabajar maniobras: cada clase empieza donde estás hoy."
+      },
+      "b": {
+        "title": "Todo el mundo es bienvenido",
+        "text": "Niños, familias, visitantes y surfistas con movilidad reducida o necesidades especiales tienen su sitio en el agua."
+      },
+      "c": {
+        "title": "Primero, leer el mar",
+        "text": "Las condiciones de Mundaka cambian con el mar de fondo, el viento y la marea. Entenderlas forma parte de aprender a surfear."
+      },
+      "d": {
+        "title": "La seguridad, lo primero",
+        "text": "Monitores titulados, material en buen estado y, cada día, el lugar más seguro para tu nivel."
+      }
+    },
+    "langsTitle": "Idiomas"
+  },
+  "lessons": {
+    "meta": {
+      "title": "Clases y precios — Mundaka Surf Academy",
+      "description": "Clases privadas (de 50 € a 60 € por persona, 1 hora), en grupo y grupos avanzados/técnicos (de 35 € a 160 € por persona) en Mundaka."
+    },
+    "eyebrow": "Clases de surf",
+    "title": "Clases y precios",
+    "lead": "Cuatro tipos de clases con todo el material incluido en el precio.",
+    "jump": "Ir a",
+    "bookThis": "Reservar esta clase",
+    "labels": {
+      "level": "Nivel",
+      "where": "Dónde",
+      "whereValue": "Según el nivel",
+      "when": "Cuándo",
+      "whenValue": "Según la marea: el horario cambia cada día"
+    },
+    "table": {
+      "type": "Tipo",
+      "price": "Precio",
+      "privateRow": "Clase privada personal",
+      "perPersonHour": "por persona y hora",
+      "perPersonDay": "por persona",
+      "days": "Días",
+      "hours": "Horas",
+      "pricePerson": "Precio (por persona)",
+      "people": "Personas",
+      "perPersonOne": "Precio por persona (1 hora)",
+      "total": "Total",
+      "person1": "1 persona",
+      "personsN": "{n} personas"
+    },
+    "private": {
+      "name": "Clases privadas",
+      "short": "Clases personalizadas para grupos de 1–3 personas.",
+      "text": "Una clase de 1 hora totalmente personalizada, para ti solo o para un grupo de hasta 3 personas, con toda la atención del monitor. Cuantas más personas, menos paga cada una.",
+      "level": "Todos los niveles",
+      "photoAlt": "Surfista con su tabla saliendo del agua",
+      "where": "Según tu nivel: playa de Laida, entre Laida y la barra, o la ola de Mundaka.",
+      "videoLabel": "Vídeo desde el dron: un alumno se pone de pie en una ola"
+    },
+    "group": {
+      "name": "Clases en grupo (Iniciación)",
+      "short": "Tus primeras olas en la playa de Laida.",
+      "text": "Sesiones de 2 horas en grupo, para dar tus primeros pasos sobre la tabla. Cuantos más días, más barato sale cada uno y más se nota el progreso.",
+      "level": "Iniciación",
+      "photoAlt": "Un grupo de surfistas con sus tablas en la playa",
+      "where": "Playa de Laida, justo debajo de la barra de Mundaka: condiciones idóneas y muy seguras para empezar desde cero.",
+      "videoLabel": "Vídeo desde el dron: una clase en grupo cogiendo espumas en la playa de Laida"
+    },
+    "advanced": {
+      "name": "Grupos avanzados y técnicos",
+      "short": "Técnica y rendimiento para surfistas de nivel intermedio y avanzado.",
+      "text": "Para surfistas de nivel intermedio y avanzado que quieren mejorar su técnica y su forma física, adaptado al nivel y a los objetivos de cada persona.",
+      "level": "Intermedio, avanzado y tecnificación",
+      "photoAlt": "Surfista en una ola verde y turquesa",
+      "f1": "Seguimiento de cada sesión",
+      "f3": "Simulaciones y ejercicios en tierra",
+      "f4": "Plan adaptado a tu nivel y a tus objetivos",
+      "samePrice": "Mismos precios que las clases en grupo.",
+      "where": "Intermedio: entre Laida y la barra de Mundaka, donde las olas ganan altura, fuerza y ritmo. Tecnificación: directamente en la ola de Mundaka."
+    },
+    "info": {
+      "eyebrow": "Antes de venir",
+      "title": "Información práctica",
+      "where": {
+        "title": "Dónde",
+        "text": "Iniciación y clases inclusivas: playa de Laida. Intermedio: entre Laida y la barra de Mundaka. Tecnificación: la ola de Mundaka."
+      },
+      "when": {
+        "title": "Cuándo",
+        "text": "Las clases dependen de la marea, así que el horario cambia cada día. Pregúntanos por WhatsApp y te decimos la hora."
+      },
+      "how": {
+        "title": "Cómo es una clase",
+        "s1": "Quedamos en el local (Barrio de Erreka, 6).",
+        "s2": "Recoges el material y te cambias.",
+        "s3": "Vamos andando a la playa con el monitor.",
+        "s4": "Teoría y calentamiento.",
+        "s5": "¡Al agua a surfear!",
+        "s6": "Volvemos juntos a la escuela."
+      },
+      "bring": {
+        "title": "Qué traer",
+        "text": "Toalla, chanclas y bañador. La tabla y el neopreno los ponemos nosotros, limpios y secos."
+      },
+      "groups": {
+        "title": "Grupos",
+        "text": "Reserva de grupo a partir de 5 o 6 personas. Una persona puede reservar online para todo el grupo, o cada uno reserva por su cuenta y nos avisa por WhatsApp o teléfono con los nombres del grupo, para ponerlos juntos en el mismo turno y con el mismo monitor."
+      },
+      "travel": {
+        "title": "Cómo llegar y aparcar",
+        "text": "Puedes llegar fácilmente a Mundaka en transporte público (Euskotren y autobús) o en vehículo privado. Si vienes en coche, ten en cuenta que somos la escuela que tiene el parking más grande de Mundaka más cerca del local, lo que facilita muchísimo el aparcamiento al llegar."
+      }
+    },
+    "inclusive": {
+      "name": "Clases inclusivas",
+      "short": "Surf adaptado para personas con movilidad reducida.",
+      "text": "Clases de surf adaptado para personas con movilidad reducida o necesidades especiales. Cuéntanos tus necesidades al reservar y preparamos la sesión contigo.",
+      "level": "Todos los niveles",
+      "where": "Playa de Laida.",
+      "photoAlt": "Un monitor enseña a un surfista tumbado en la tabla, junto a una silla anfibia en la playa"
+    }
+  },
+  "book": {
+    "meta": {
+      "title": "Reservar — Mundaka Surf Academy",
+      "description": "Reserva tu clase de surf en Mundaka: eliges el día y la hora en el calendario de mareas, la clase y tu grupo."
+    },
+    "eyebrow": "Reserva online",
+    "title": "Reserva tu clase",
+    "lead": "Elige el día y la hora en el calendario de mareas, la clase y tu grupo. Pagas un 15 % online para confirmar (o el 100 % si lo prefieres) y el resto en la escuela.",
+    "formLabel": "Formulario de reserva",
+    "demo": "Modo demostración: la entrega de reservas aún no está configurada, así que todavía no se envía ni se cobra nada.",
+    "step1": "Día y hora",
+    "step2": "Clase y grupo",
+    "step3": "Tus datos",
+    "step4": "Condiciones y pago",
+    "tideHint": "Dos grupos por cada bajamar: 2 h antes y 2 h después, siempre con luz de día.",
+    "policyFull": "Leer las condiciones completas",
+    "submit": "Enviar reserva",
+    "payNote": "Al confirmar pagas solo el depósito; el resto se paga en la escuela.",
+    "waAlt": "Reservar por WhatsApp",
+    "again": "Hacer otra reserva",
+    "examplesTitle": "Ejemplos de depósito (15 %)",
+    "fields": {
+      "option": "Duración",
+      "optionFirst": "Elige antes el tipo de clase",
+      "date": "Fecha",
+      "people": "Personas",
+      "level": "Nivel",
+      "levelChoose": "Elige tu nivel",
+      "name": "Nombre y apellidos",
+      "email": "Email",
+      "phone": "Teléfono (opcional)",
+      "message": "¿Lesiones, problemas de salud o algo que debamos saber? (opcional)",
+      "policy": "He leído y acepto las condiciones de reserva y cancelación, y todos los participantes saben nadar.",
+      "consentA": "Acepto que se usen mis datos para gestionar la reserva, según la",
+      "consentLink": "política de privacidad"
+    },
+    "errors": {
+      "type": "Elige un tipo de clase.",
+      "option": "Elige la duración.",
+      "date": "Elige una fecha a partir de hoy.",
+      "people": "Indica entre 1 y 20 personas.",
+      "level": "Elige tu nivel.",
+      "name": "Escribe tu nombre.",
+      "email": "Escribe un email válido.",
+      "phone": "Revisa el teléfono.",
+      "policy": "Debes aceptar las condiciones de reserva para continuar.",
+      "consent": "Debes aceptar la política de privacidad.",
+      "day": "Elige un día en el calendario."
+    },
+    "summary": {
+      "title": "Tu reserva",
+      "total": "Precio total",
+      "now": "Pagas ahora (15 %)",
+      "later": "En la escuela (85 %)",
+      "fine": "El pago online confirma tu plaza. Si pagas el 15 %, el resto se paga en la escuela antes o después de la clase.",
+      "fineRequest": "Sin pago online: te confirmamos la reserva y la forma de pago por WhatsApp o email."
+    },
+    "examples": {
+      "group": "Grupo {d} día(s) ({h} h)",
+      "private": "Privada (1 h, 1 persona)",
+      "lesson": "Clase",
+      "total": "Total",
+      "now": "Online ({p} %)",
+      "later": "En la escuela ({p} %)"
+    },
+    "cal": {
+      "label": "Calendario de reservas",
+      "prev": "Mes anterior",
+      "next": "Mes siguiente",
+      "season": "Temporada: marzo – octubre 2027",
+      "legendSlots": "Días con clase: toca uno para ver sus horarios"
+    },
+    "pay": {
+      "title": "¿Cuánto quieres pagar ahora?",
+      "deposit": "15 % ahora y el resto en la escuela (efectivo o tarjeta)",
+      "full": "El 100 % ahora"
+    },
+    "leadRequest": "Elige el día y la hora en el calendario de mareas, la clase y tu grupo, y envíanos la solicitud. Por ahora no se paga nada online: te confirmamos la reserva y la forma de pago por WhatsApp o email.",
+    "step4Request": "Condiciones",
+    "payNoteRequest": "Al enviar la solicitud no se cobra nada: te confirmamos la reserva por WhatsApp o email."
+  },
+  "conditions": {
+    "meta": {
+      "title": "Condiciones de reserva y cancelación — Mundaka Surf Academy",
+      "description": "Condiciones de reserva y cancelación de Mundaka Surf Academy: reservas, cancelaciones, retrasos y salud."
+    },
+    "eyebrow": "Antes de pagar",
+    "title": "Condiciones de reserva y cancelación",
+    "lead": "Reservas, pagos, cancelaciones, retrasos y salud: lo que tienes que saber antes de reservar.",
+    "note": "Condiciones confirmadas por la academia (12/11/2026).",
+    "h": {
+      "booking": "1. Reservas y pagos",
+      "cancel": "2. Cancelación y reembolsos",
+      "examples": "Ejemplos de depósito",
+      "lessons": "Las clases y el mar",
+      "attendance": "3. Asistencia, retrasos y conducta",
+      "health": "4. Responsabilidad y salud",
+      "bookingRequest": "1. Reservas",
+      "cancelRequest": "2. Cancelaciones"
+    },
+    "items": {
+      "deposit": "<strong>Depósito obligatorio:</strong> para confirmar cualquier reserva de clases o cursos es obligatorio pagar online el 15 % del total en el momento de la reserva.",
+      "balance": "<strong>Resto del pago (85 %):</strong> si solo has pagado el 15 %, el 85 % restante se paga en persona en la escuela, antes o después de la clase, en efectivo o con tarjeta.",
+      "how": "Recibirás un email de confirmación; la academia también recibe tu reserva.",
+      "cancel": "Cancelación con 24 horas o más: devolución íntegra; con menos de 24 horas: sin devolución.",
+      "weather": "<strong>Por tiempo o fuerza mayor:</strong> si la academia cancela por condiciones meteorológicas, alerta de seguridad o fuerza mayor, eliges entre cambiar la fecha o la devolución íntegra.",
+      "noshow": "<strong>No presentación:</strong> no presentarse a la hora fijada sin avisar supone perder la clase, sin devolución.",
+      "full": "<strong>Pago total opcional:</strong> si lo prefieres, puedes pagar el 100 % de la reserva online por adelantado.",
+      "cancel24": "<strong>Con 24 horas o más de antelación:</strong> se reembolsa íntegramente lo pagado (el depósito del 15 % o el 100 %).",
+      "cancelLate": "<strong>Con menos de 24 horas:</strong> no hay devolución del depósito ni del importe pagado. Con 24 horas de margen organizamos los turnos, asignamos monitores y preparamos el material; una cancelación tardía no permite reorganizarlos.",
+      "late": "<strong>Retrasos:</strong> hay un margen de cortesía de 15 minutos. Si avisas por teléfono, intentaremos ajustar la sesión; más de 15 minutos sin aviso supone perder la clase, sin devolución.",
+      "conduct": "<strong>Seguridad:</strong> la academia puede negar el acceso a la clase a quien muestre signos de embriaguez, consumo de drogas o un estado físico que comprometa su seguridad o la del grupo, sin devolución.",
+      "health": "Es obligatorio saber nadar y comunicar a la escuela cualquier lesión previa, problema médico o condición de salud que pueda afectar a la práctica del surf antes de entrar al agua."
+    },
+    "lessonsText": "Mundaka cambia con la marea, el mar de fondo y el viento. El monitor elige cada día el lugar y la hora más seguros para tu nivel, y te avisa si hay que mover la clase.",
+    "request": {
+      "how": "<strong>Reserva sin pago online:</strong> por ahora la web no cobra nada. Envías tu solicitud (día, hora, clase y personas) y la academia te confirma la reserva por WhatsApp o email, junto con la forma de pago.",
+      "cancel": "<strong>Cancelaciones:</strong> si no puedes venir, avísanos cuanto antes, a ser posible con 24 horas o más de antelación, por WhatsApp o teléfono."
+    }
+  },
+  "surf": {
+    "meta": {
+      "title": "Surf y tiempo en Mundaka — Mundaka Surf Academy",
+      "description": "Previsión de olas (Windguru) y del tiempo (AEMET) para Mundaka, Bizkaia."
+    },
+    "eyebrow": "Previsión",
+    "title": "Surf y tiempo",
+    "lead": "Olas, viento y tiempo para Mundaka antes de tu clase.",
+    "waves": {
+      "title": "Olas y viento",
+      "lead": "Altura, periodo y dirección del mar de fondo, y viento, hora a hora."
+    },
+    "weather": {
+      "title": "El tiempo",
+      "lead": "Previsión oficial de la Agencia Estatal de Meteorología para Mundaka.",
+      "frameTitle": "Previsión del tiempo de AEMET para Mundaka"
+    },
+    "tips": {
+      "title": "Bueno saberlo",
+      "tide": {
+        "title": "Manda la marea",
+        "text": "La hora de las clases se ajusta a la marea de cada día."
+      },
+      "safety": {
+        "title": "La seguridad primero",
+        "text": "Si el mar no está para clase, la cambiamos de día o te devolvemos el dinero."
+      },
+      "ask": {
+        "title": "Pregúntanos",
+        "text": "¿Dudas con la previsión? Escríbenos por WhatsApp y te decimos qué esperar."
+      }
+    }
+  },
+  "gallery": {
+    "meta": {
+      "title": "Galería — Mundaka Surf Academy",
+      "description": "Fotos de las clases y de los instructores de Mundaka Surf Academy."
+    },
+    "eyebrow": "Galería",
+    "title": "Fotos y momentos",
+    "lead": "Nuestros monitores y nuestras clases en el agua de Mundaka.",
+    "filter": "Filtrar fotos",
+    "all": "Todas",
+    "lessons": "Clases",
+    "instructors": "Instructores",
+    "note": "Pendiente: las fotos de las clases y de cada monitor, que enviará la academia.",
+    "credit": "Fotos: archivo de Mundaka Surf Academy (Koldo Erauzkin, Martin Ugalde).",
+    "open": "Ampliar foto",
+    "prev": "Foto anterior",
+    "next": "Foto siguiente",
+    "close": "Cerrar",
+    "instructorsLead": "Los monitores de la academia surfeando en Mundaka.",
+    "lessonsLead": "Las clases, grabadas desde el dron. Pronto, más fotos de las clases."
+  },
+  "faq": {
+    "meta": {
+      "title": "Preguntas frecuentes — Mundaka Surf Academy",
+      "description": "Dónde y cuándo son las clases, cómo funcionan, qué traer, cómo llegar y cómo reservar."
+    },
+    "eyebrow": "FAQ",
+    "title": "Preguntas frecuentes",
+    "lead": "¿No encuentras tu respuesta? Escríbenos por WhatsApp.",
+    "q1": "¿Dónde son las clases?",
+    "a1": "La clase empieza en nuestro local, en el Barrio de Erreka, 6. A partir de ahí, y dependiendo del nivel del alumno, la clase se impartirá en la zona correspondiente:",
+    "q2": "¿Cuándo son las clases?",
+    "a2": "Dependen de la marea, así que el horario cambia cada día. Pregúntanos por WhatsApp y te confirmamos la hora.",
+    "q3": "¿Cómo es una clase?",
+    "a3": "Así es un día de clase:",
+    "q4": "¿Qué tengo que traer?",
+    "a4": "Toalla, chanclas y bañador. La tabla y el neopreno están incluidos y te los damos limpios y secos.",
+    "q5": "¿Cómo llego a Mundaka y dónde aparco?",
+    "a5": "Puedes llegar fácilmente a Mundaka en transporte público (Euskotren y autobús) o en vehículo privado. Si vienes en coche, ten en cuenta que somos la escuela que tiene el parking más grande de Mundaka más cerca del local, lo que facilita muchísimo el aparcamiento al llegar.",
+    "q6": "¿Cómo reservo?",
+    "a6": "Online, desde el botón «Reservar»: eliges el día y la hora en el calendario, la clase, las personas y el nivel, y pagas un 15 % de depósito (o el 100 % si lo prefieres). El resto se paga en la escuela. También puedes reservar por WhatsApp.",
+    "q7": "¿Y si tengo que cancelar o el mar no acompaña?",
+    "a7": "Si cancelas con 24 horas o más de antelación, te devolvemos todo lo pagado; con menos de 24 horas no hay devolución. Si la academia cancela por el tiempo, eliges entre cambiar la fecha o la devolución íntegra. Todo en las",
+    "a1a": "<strong>Iniciación y clases inclusivas:</strong> se imparten en la playa de Laida.",
+    "a1b": "<strong>Avanzadas:</strong> se realizan entre la barra de Mundaka y Laida.",
+    "a1c": "<strong>Muy avanzados y tecnificación:</strong> se llevan a cabo directamente en la famosa ola de Mundaka.",
+    "a6Request": "Online, desde el botón «Reservar»: eliges el día y la hora en el calendario, la clase, las personas y el nivel, y nos envías la solicitud. Por ahora no se paga nada online: te confirmamos la reserva y la forma de pago por WhatsApp o email. También puedes reservar por WhatsApp."
+  },
+  "contact": {
+    "meta": {
+      "title": "Contacto — Mundaka Surf Academy",
+      "description": "Contacta con Mundaka Surf Academy: Erreka 6, Mundaka. Email, WhatsApp, Instagram y Facebook."
+    },
+    "eyebrow": "Contacto",
+    "title": "Hablamos",
+    "lead": "Escríbenos por WhatsApp, por email o con el formulario. Te respondemos lo antes posible.",
+    "channels": "Datos de contacto",
+    "address": "Dirección",
+    "formTitle": "Envíanos un mensaje",
+    "demo": "Modo demostración: el formulario aún no está conectado, así que el mensaje no se envía. Usa el email o WhatsApp.",
+    "message": "Mensaje",
+    "messageError": "Escribe tu mensaje.",
+    "send": "Enviar mensaje"
+  },
+  "cookies": {
+    "meta": {
+      "title": "Política de cookies — Mundaka Surf Academy",
+      "description": "Qué cookies usa la web de Mundaka Surf Academy y cómo gestionarlas."
+    },
+    "title": "Política de cookies",
+    "intro": "Esta web no usa cookies propias de analítica ni de publicidad. Algunos servicios externos que mostramos sí pueden usar cookies, y solo se cargan si las aceptas.",
+    "own": {
+      "title": "Almacenamiento propio",
+      "text": "Guardamos en tu navegador (almacenamiento local) tu elección sobre las cookies, para no volver a preguntarte. No sirve para identificarte."
+    },
+    "third": {
+      "title": "Servicios de terceros",
+      "text": "El mapa y las previsiones vienen de servicios externos que pueden instalar sus propias cookies:"
+    },
+    "table": {
+      "service": "Servicio",
+      "purpose": "Para qué",
+      "where": "Dónde",
+      "maps": "Mapa interactivo de la escuela",
+      "windguru": "Previsión de olas y viento",
+      "aemet": "Previsión del tiempo"
+    },
+    "manage": {
+      "title": "Cambiar tu elección",
+      "text": "Puedes cambiar tu elección cuando quieras con el botón de abajo (también está en el pie de cada página), o borrar las cookies desde la configuración de tu navegador."
+    },
+    "banner": {
+      "title": "Cookies",
+      "text": "Usamos servicios externos (Google Maps, Windguru y AEMET) que pueden usar cookies. ¿Los cargamos?",
+      "more": "Más información",
+      "reject": "Solo necesarias",
+      "accept": "Aceptar todas",
+      "settings": "Configurar cookies"
+    }
+  },
+  "legalCommon": {
+    "updated": "Última actualización:",
+    "draft": "Datos facilitados por el titular",
+    "owner": "Titular",
+    "tradeName": "Nombre comercial",
+    "taxId": "NIF/CIF",
+    "address": "Domicilio",
+    "email": "Email de contacto",
+    "phone": "Teléfono / WhatsApp"
+  },
+  "legal": {
+    "meta": {
+      "title": "Aviso legal — Mundaka Surf Academy",
+      "description": "Aviso legal y datos del titular de la web de Mundaka Surf Academy."
+    },
+    "title": "Aviso legal",
+    "owner": {
+      "title": "Titular de la web",
+      "text": "En cumplimiento de la Ley 34/2002, de servicios de la sociedad de la información y de comercio electrónico (LSSI-CE), el titular de esta web es:"
+    },
+    "use": {
+      "title": "Uso de la web",
+      "text": "Esta web presenta las clases de Mundaka Surf Academy y permite reservarlas online. Las condiciones de cada reserva están en la página de condiciones de reserva y cancelación."
+    },
+    "ip": {
+      "title": "Propiedad intelectual",
+      "text": "Los textos, fotografías, logotipos y diseño de esta web pertenecen a sus respectivos titulares y no pueden reproducirse sin permiso.",
+      "credits": "Entre los créditos fotográficos figuran Koldo Erauzkin y Martin Ugalde; algunas fotos de las clases son de Unsplash. Tipografías: Montserrat e Inter (SIL Open Font License)."
+    },
+    "links": {
+      "title": "Enlaces externos",
+      "text": "Esta web enlaza o muestra servicios de terceros como Windguru, AEMET, Google Maps, Instagram, Facebook y WhatsApp. Mundaka Surf Academy no se responsabiliza de su contenido."
+    },
+    "law": {
+      "title": "Legislación aplicable",
+      "text": "Este aviso se rige por la legislación española."
+    }
+  },
+  "privacy": {
+    "meta": {
+      "title": "Política de privacidad — Mundaka Surf Academy",
+      "description": "Cómo usa Mundaka Surf Academy los datos personales que envías a través de esta web."
+    },
+    "title": "Política de privacidad",
+    "controller": {
+      "title": "Responsable del tratamiento",
+      "text": "El responsable del tratamiento de los datos de esta web es el titular de Mundaka Surf Academy:"
+    },
+    "data": {
+      "title": "Qué datos recogemos",
+      "text": "Solo lo que escribes en los formularios de reserva y de contacto: tu nombre, email, teléfono (opcional), la clase, fecha, personas y nivel que elijas y tu mensaje. Esta web no usa herramientas de analítica ni de publicidad."
+    },
+    "purpose": {
+      "title": "Para qué los usamos",
+      "text": "Para gestionar y confirmar tu reserva, cobrar el pago online cuando lo haya y responder a tus mensajes."
+    },
+    "basis": {
+      "title": "Base jurídica",
+      "text": "La ejecución de la reserva que solicitas y tu consentimiento al enviar el formulario (artículo 6.1.a y b del RGPD)."
+    },
+    "retention": {
+      "title": "Cuánto tiempo los conservamos",
+      "text": "Los datos personales y de contacto facilitados para gestionar reservas y servicios se conservan durante el tiempo necesario para cumplir las finalidades para las que se recabaron y atender posibles responsabilidades legales. Por norma general, los datos de las reservas se mantienen de 1 a 2 años, salvo que la normativa fiscal o contable exija un plazo superior."
+    },
+    "recipients": {
+      "title": "Quién los recibe",
+      "text": "Tus datos nunca se venden ni se usan para publicidad. Pueden tratarlos, por cuenta de la academia, el servicio que entrega los emails de la web y, cuando hay pago online, el proveedor de pagos (Stripe)."
+    },
+    "rights": {
+      "title": "Tus derechos",
+      "text": "Puedes solicitar el acceso, rectificación o supresión de tus datos, oponerte a su tratamiento o limitarlo, y recibir una copia (portabilidad) escribiendo al email de contacto. También puedes reclamar ante la Agencia Española de Protección de Datos (www.aepd.es)."
+    },
+    "cookies": {
+      "title": "Cookies",
+      "text": "Consulta la política de cookies para saber qué servicios externos usan cookies y cómo gestionarlas."
+    }
+  },
+  "bookingStatus": {
+    "meta": {
+      "title": "Estado de la reserva — Mundaka Surf Academy",
+      "description": "Estado de tu reserva con Mundaka Surf Academy."
+    },
+    "generic": {
+      "title": "Tu reserva",
+      "text": "Si has hecho una reserva, recibirás la confirmación por email."
+    },
+    "success": {
+      "title": "Reserva confirmada",
+      "text": "Gracias: hemos recibido tu depósito. Te llegará un email con la confirmación; el resto se paga en la escuela."
+    },
+    "cancelled": {
+      "title": "Pago cancelado",
+      "text": "Has cancelado el pago, así que no se ha cobrado nada y tu reserva no está confirmada."
+    },
+    "failed": {
+      "title": "Pago no completado",
+      "text": "No se pudo completar el pago y no se ha cobrado nada. Vuelve a intentarlo o escríbenos por WhatsApp."
+    },
+    "back": "Volver a reservar"
+  },
+  "notfound": {
+    "meta": {
+      "title": "Página no encontrada — Mundaka Surf Academy",
+      "description": "No se ha encontrado esta página."
+    },
+    "title": "Revolcón",
+    "text": "Esta página no existe o ha cambiado de sitio.",
+    "cta": "Volver al inicio"
+  },
+  "js": {
+    "tbc": "Por confirmar",
+    "cursorView": "Ver",
+    "cursorDrag": "Arrastrar",
+    "cursorPlay": "Play",
+    "optionHours": "{n} h",
+    "optionDays": "{n} día(s) · {h} h",
+    "optionLabelHours": "Horas",
+    "optionLabelDays": "Días",
+    "optionPrice": "{price} por persona",
+    "level_beginner": "Iniciación",
+    "level_intermediate": "Intermedio",
+    "level_advanced": "Avanzado",
+    "sumLesson": "Clase",
+    "sumOption": "Duración",
+    "sumDate": "Fecha",
+    "sumPeople": "Personas",
+    "sumLevel": "Nivel",
+    "submit": "Enviar reserva",
+    "submitPay": "Pagar depósito de {amount}",
+    "sending": "Enviando…",
+    "doneTitle": "¡Reserva recibida!",
+    "doneText": "Te hemos enviado un email a {email} con el resumen. Te confirmaremos la hora según la marea.",
+    "demoTitle": "Modo demostración",
+    "demoText": "La entrega de reservas aún no está configurada: no se ha enviado ni cobrado nada. Puedes copiar el resumen o enviarlo por WhatsApp.",
+    "copy": "Copiar resumen",
+    "copied": "Copiado",
+    "copyFailed": "No se pudo copiar",
+    "sendError": "No se pudo enviar. Inténtalo de nuevo o escríbenos por WhatsApp.",
+    "advancedLevel": "Los grupos avanzados son para nivel intermedio o avanzado.",
+    "waIntro": "¡Hola! Me gustaría reservar una clase.",
+    "waPlan": "Clase",
+    "waOption": "Duración",
+    "waDate": "Fecha",
+    "waPeople": "Personas",
+    "waLevel": "Nivel",
+    "waName": "Nombre",
+    "contactDone": "Gracias, {name}: hemos recibido tu mensaje y te responderemos pronto.",
+    "contactDemo": "Modo demostración: el mensaje no se ha enviado. Escríbenos a mundakasurfacademy@gmail.com o por WhatsApp.",
+    "embedLoading": "Cargando…",
+    "mapHome": "Aquí está la academia",
+    "mapDirections": "Cómo llegar",
+    "mapFrom": "A {km} km de Mundaka en línea recta",
+    "sumTime": "Hora",
+    "timeTbc": "Según la marea (te la confirmamos)",
+    "payNowDeposit": "Pagas ahora (15 %)",
+    "payNowFull": "Pagas ahora (100 %)",
+    "payLaterNone": "En la escuela",
+    "slotsFor": "Horarios del {date}",
+    "slotsNone": "La hora de este día depende de la marea: elige el día y te confirmamos la hora por email o WhatsApp.",
+    "lowTide": "Bajamar",
+    "highTide": "Pleamar",
+    "slotN": "{n}ª",
+    "maxPeople": "Las clases privadas son para 1, 2 o 3 personas.",
+    "waTime": "Hora",
+    "outOfSeason": "Fuera de temporada",
+    "readMore": "Leer más",
+    "readLess": "Leer menos",
+    "submitRequest": "Enviar solicitud",
+    "showMore": "Ver más fotos ({n})",
+    "showLess": "Ver menos fotos"
+  },
+  "location": {
+    "facts": {
+      "addressK": "Dirección",
+      "regionK": "Región",
+      "regionV": "Bizkaia · Euskadi · España",
+      "cityK": "Ciudades más cercanas",
+      "cityV": "Bilbao y Donostia-San Sebastián",
+      "trainK": "Tren",
+      "trainV": "Euskotren, línea Bilbao–Bermeo (estación de Mundaka)",
+      "airportK": "Aeropuerto más cercano",
+      "airportV": "Aeropuerto de Bilbao (BIO)"
+    },
+    "map": {
+      "spain": "España",
+      "basque": "Costa vasca",
+      "street": "Mapa de calles",
+      "hint": "Pasa por las regiones y toca una ciudad para ver su distancia a Mundaka.",
+      "controls": "Vista del mapa"
+    }
+  },
+  "map": {
+    "title": "Mapa de España con Mundaka",
+    "desc": "Mapa estilizado de España con Euskadi resaltado y Mundaka marcado en la costa del mar Cantábrico, con distancias en línea recta a Bilbao, Donostia / San Sebastián, Madrid, Barcelona y Canarias.",
+    "biscay": "Mar Cantábrico",
+    "atlantic": "Océano Atlántico",
+    "mediterranean": "Mar Mediterráneo",
+    "credit": "Mapa base © Instituto Geográfico Nacional (CC BY 4.0) · distancias en línea recta",
+    "thousands": "."
+  },
+  "mapFragment": {
+    "meta": {
+      "title": "Mapa",
+      "description": "Mapa"
+    }
+  },
+  "craig": {
+    "meta": {
+      "title": "Gracias, Craig — Mundaka Surf Academy",
+      "description": "Carta de Xabier Gondra León a Craig, que durante 41 años llevó Mundaka Surf Shop."
+    },
+    "letterhead": "Mundaka · Bizkaia",
+    "title": "Gracias, Craig",
+    "greeting": "Craig,",
+    "p1": "Hace unos años entré en Mundaka Surf Shop con dieciséis años y sin saber demasiado de la vida. Salí cuatro años después siendo otra persona, y buena parte de eso te lo debo a ti. Quiero que esto quede por escrito, en un sitio donde cualquiera pueda leerlo, porque creo que te lo mereces.",
+    "p2": "Llegaste desde Australia a Mundaka hace más de cuatro décadas y decidiste quedarte. Abriste una tienda que durante 41 años fue mucho más que un negocio: fue un punto de encuentro, una referencia para surfistas de aquí y de fuera, y parte de la identidad del pueblo. Sostener algo así durante tanto tiempo, con esa constancia y esa honestidad, no está al alcance de cualquiera.",
+    "p3": "Para mí fuiste un jefe extraordinario. En cuatro años nunca me hiciste sentir pequeño. Cuando me equivocaba, y me equivoqué muchas veces, no hubo reproches, sino críticas constructivas, dichas con calma y con la intención de que mejorara. Aprendí contigo que se puede exigir sin humillar, y que la manera de corregir a alguien dice mucho de quién eres. Esa lección me la llevo para siempre.",
+    "p4": "Pero con el tiempo dejaste de ser solo mi jefe. Te convertiste en un amigo y en un mentor. Me enseñaste mil cosas que no se aprenden en ningún manual: cómo tratar a la gente, cómo cuidar a un cliente, cómo ser responsable y cómo trabajar bien aunque nadie esté mirando. Y cuando empecé a hablarte de mi sueño de montar una escuela de surf, siempre tuviste un consejo, una idea o una advertencia útil. Sin tu experiencia y tu apoyo, Mundaka Surf Academy no sería lo que es.",
+    "p5": "Ahora que te jubilas y empieza una etapa nueva para ti, quiero decirte que me siento muy afortunado de haber sido parte de tu historia, aunque sea un capítulo pequeño. Tú has sido un referente para mí, y tu trayectoria es un espejo en el que me miro. Ojalá pueda llevar esta escuela con la mitad de la dedicación y el cariño con los que tú llevaste la tienda.",
+    "p6": "Espero que me veas crecer, Craig, igual que tú has crecido y has hecho crecer este pueblo a tu manera. Prometo cuidar lo que me enseñaste y devolver, a quienes vengan detrás, parte de lo que tú me diste a mí.",
+    "p7": "Gracias por la confianza, por la paciencia, por los consejos y por tantas olas compartidas, dentro y fuera del agua. Disfruta de tu merecido descanso. Aquí tienes un amigo para siempre.",
+    "cheers": "",
+    "closing": "Con todo mi cariño y mi respeto,",
+    "signature": "Xabier Gondra León",
+    "photoAlt": "Craig y Xabi sonriendo detrás del mostrador de Mundaka Surf Shop, con tablas de surf colgadas del techo.",
+    "caption": "Craig y Xabi en Mundaka Surf Shop",
+    "teaser": {
+      "label": "Una carta de Xabi",
+      "quote": "«Sin tu experiencia y tu apoyo, Mundaka Surf Academy no sería lo que es.»",
+      "cta": "Leer la carta"
+    }
+  }
+}

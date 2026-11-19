@@ -1,0 +1,124 @@
+/* Base — reset, type, layout helpers, buttons, review markers */
+*, *::before, *::after { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; scroll-padding-top: calc(var(--header-h) + 16px); }
+body {
+  margin: 0; background: var(--white); color: var(--ink);
+  font: 400 var(--step-0)/1.65 var(--font-sans);
+  -webkit-font-smoothing: antialiased; overflow-x: clip;
+}
+img, video, svg { display: block; max-width: 100%; }
+img { height: auto; }
+a { color: var(--teal); text-underline-offset: 3px; }
+a:hover { color: var(--deep); }
+h1, h2, h3, h4 { font-family: var(--font-head); color: var(--deep); line-height: 1.12; margin: 0 0 0.5em; letter-spacing: -0.015em; }
+p, ul, ol, dl, figure, blockquote { margin: 0 0 1em; }
+button, input, select, textarea { font: inherit; color: inherit; }
+:focus-visible { outline: 3px solid var(--turq); outline-offset: 3px; border-radius: 0; }
+::selection { background: var(--aqua); color: var(--deep); }
+.icon { width: 1.15em; height: 1.15em; flex: none; }
+
+.visually-hidden { position: absolute !important; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+.skip-link { position: absolute; left: 12px; top: -60px; z-index: 100; background: var(--deep); color: #fff; padding: 10px 16px; border-radius: 0; }
+.skip-link:focus { top: 12px; }
+main:focus { outline: none; }
+
+.container { width: min(var(--max), 100% - 2 * var(--gutter)); margin-inline: auto; }
+.container--narrow { width: min(820px, 100% - 2 * var(--gutter)); margin-inline: auto; }
+.section { padding-block: clamp(3.25rem, 2rem + 5vw, 6.5rem); }
+.section--tint { background: var(--aqua-50); }
+.section--deep { background: var(--deep); color: rgba(255, 255, 255, 0.86); }
+.section--deep :is(h2, h3) { color: #fff; }
+.section--deep .eyebrow { color: var(--aqua); }
+.section--deep .eyebrow::before { background: var(--aqua); }
+.section--deep a:not(.btn) { color: var(--aqua); }
+
+.eyebrow {
+  display: inline-flex; align-items: center; gap: 0.6em; margin-bottom: 0.9rem;
+  font: 700 var(--step--2)/1.2 var(--font-head); letter-spacing: 0.18em; text-transform: uppercase; color: var(--teal);
+}
+.eyebrow::before { content: ""; width: 26px; height: 3px; border-radius: 0; background: var(--turq); }
+.title { font-size: var(--step-3); font-weight: 800; }
+.title--sm { font-size: var(--step-2); font-weight: 700; }
+.lead { font-size: var(--step-1); color: var(--ink-2); line-height: 1.55; }
+/* client feedback 3: the founder's introduction and the Our story texts (academy, Mundaka wave, Urdaibai) in one font and size */
+.intro-text { font-family: var(--font-sans); font-size: max(var(--step-0), 1.0625rem); line-height: 1.7; }
+.section--deep .lead { color: rgba(255, 255, 255, 0.8); }
+.small { font-size: var(--step--1); }
+.muted { color: var(--ink-3); }
+
+.section-head { margin-bottom: clamp(1.75rem, 1rem + 2vw, 2.75rem); max-width: 760px; }
+.section-head--row { display: flex; justify-content: space-between; align-items: end; gap: 1rem 2rem; flex-wrap: wrap; max-width: none; }
+.section-head--row > div { max-width: 680px; }
+.section-head .lead, .section-head .title { margin-bottom: 0; }
+.section-head .title + .lead { margin-top: 0.6rem; }
+
+/* buttons */
+.btn {
+  --bg: var(--teal); --fg: #fff; --bd: transparent;
+  display: inline-flex; align-items: center; justify-content: center; gap: 0.55em; min-height: 48px; padding: 0.7em 1.35em;
+  border: 2px solid var(--bd); border-radius: 0; background: var(--bg); color: var(--fg);
+  font: 700 var(--step--1)/1.1 var(--font-head); letter-spacing: 0.02em; text-decoration: none; cursor: pointer;
+  transition: background 0.3s, color 0.3s, border-color 0.3s, transform 0.4s var(--ease), box-shadow 0.4s var(--ease);
+}
+.btn:hover { transform: translateY(-2px); box-shadow: 0 12px 24px -14px rgba(0, 50, 63, 0.6); color: var(--fg); }
+.btn:active { transform: translateY(0); }
+.btn--primary { --bg: var(--turq); --fg: var(--deep); }
+.btn--primary:hover { --bg: var(--turq-600); }
+.btn--teal:hover { --bg: var(--teal-700); }
+.btn--wa { --bg: var(--deep); --fg: #fff; }
+.btn--wa .icon { color: var(--aqua); }
+.btn--wa:hover { --bg: var(--deep-900); }
+.btn--ghost { --bg: transparent; --fg: var(--deep); --bd: var(--line-strong); }
+.btn--ghost:hover { --bd: var(--deep); }
+.btn--sm { min-height: 40px; padding: 0.5em 1.05em; }
+.btn--lg { min-height: 56px; padding: 0.85em 1.8em; font-size: var(--step-0); }
+.btn--block { width: 100%; }
+.btn:disabled { opacity: 0.55; cursor: not-allowed; transform: none; box-shadow: none; }
+.linklike { background: none; border: 0; padding: 0; color: inherit; text-decoration: underline; text-underline-offset: 3px; cursor: pointer; }
+
+.link-arrow {
+  display: inline-flex; align-items: center; gap: 0.5em; font: 700 var(--step--1)/1.2 var(--font-head);
+  color: var(--teal); text-decoration: none; letter-spacing: 0.02em;
+}
+.link-arrow .icon { transition: transform 0.4s var(--ease); }
+.link-arrow:hover .icon { transform: translateX(4px); }
+
+.section-actions { display: flex; flex-wrap: wrap; gap: 0.75rem; margin-top: clamp(1.5rem, 1rem + 1.5vw, 2.25rem); }
+
+.frame { position: relative; margin: 0; }
+.frame::before { content: ""; position: absolute; inset: 18px -18px -18px 18px; border-radius: 0; background: var(--aqua); z-index: -1; }
+.frame img { width: 100%; border-radius: 0; object-fit: cover; }
+
+.ticks { list-style: none; padding: 0; display: grid; gap: 0.55rem; }
+.ticks li { position: relative; padding-left: 2rem; }
+.ticks li::before {
+  content: ""; position: absolute; left: 0; top: 0.2em; width: 1.3rem; height: 1.3rem; border-radius: 0;
+  background: var(--turq) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='m6 12.5 4 4L18 8' fill='none' stroke='%23004a5c' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E") center/0.85rem no-repeat;
+}
+
+.table-wrap { overflow-x: auto; margin-bottom: 1.25rem; }
+.price-table { width: 100%; border-collapse: separate; border-spacing: 0; border: 1px solid var(--line); border-radius: 0; overflow: hidden; margin-bottom: 1.25rem; font-size: var(--step--1); background: #fff; }
+.table-wrap .price-table { margin-bottom: 0; }
+.price-table th { background: var(--deep); color: #fff; text-align: left; font: 700 var(--step--1)/1.3 var(--font-head); padding: 0.8rem 1rem; }
+.price-table td { padding: 0.72rem 1rem; border-top: 1px solid var(--line); }
+.price-table td:first-child { white-space: nowrap; } /* "2 personas", "10 h" on one line */
+.price-table tbody tr:nth-child(even) td { background: var(--aqua-50); }
+.price-table strong { color: var(--teal); font: 800 1.05em/1 var(--font-head); }
+
+/* review mode: things still to be supplied by the academy (hidden from the public once reviewMode is false) */
+.tbc { display: inline-block; padding: 0.1em 0.6em; border-radius: 0; background: var(--review-bg); color: var(--review); font-size: max(0.8em, 0.8125rem); font-weight: 600; border: 1px dashed #e0a43a; white-space: nowrap; }
+.review-note { padding: 0.7rem 1rem; border-radius: 0; background: var(--review-bg); color: var(--review); border: 1px dashed #e0a43a; font-size: var(--step--1); }
+[data-review="false"] .review-note { display: none; }
+.demo-note { padding: 0.8rem 1rem; border-radius: 0; background: var(--aqua-100); color: var(--deep); font-size: var(--step--1); }
+
+.prose h2 { font-size: var(--step-1); margin-top: 2em; }
+.prose ul { padding-left: 1.2em; }
+.prose li { margin-bottom: 0.4em; }
+
+.page-curtain { position: fixed; inset: 0; z-index: 95; display: grid; place-items: center; background: var(--aqua-50); pointer-events: none; visibility: hidden; translate: 0 100%; }
+.page-curtain img { width: 132px; }
+.is-leaving .page-curtain { visibility: visible; translate: 0 0; transition: translate 0.28s var(--ease-in-out); }
+.is-entering .page-curtain { visibility: visible; translate: 0 0; }
+.is-lifting .page-curtain { animation: curtainLift 0.55s var(--ease-in-out) forwards; }
+@keyframes curtainLift { from { visibility: visible; translate: 0 0; } to { visibility: hidden; translate: 0 -100%; } }
+@media (max-width: 640px) { .frame::before { inset: 12px -8px -12px 12px; } }

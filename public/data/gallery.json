@@ -1,0 +1,94 @@
+{
+ "$comment": "Gallery (client feedback 5): two sections. category 'instructors' = photos of the instructors (the first `instructorsVisible` show, the rest open with 'Ver más'); category 'lessons' = photos of the classes, shown after the drone videos of the classes. image = a name in public/assets/img. The admin panel adds, removes and orders photos.",
+ "instructorsVisible": 3,
+ "items": [
+  {
+   "image": "xabier-barrel",
+   "category": "instructors",
+   "alt": {
+    "es": "Monitor de Mundaka Surf Academy surfeando en Mundaka",
+    "en": "A Mundaka Surf Academy instructor surfing in Mundaka"
+   }
+  },
+  {
+   "image": "xabier-big-wall",
+   "category": "instructors",
+   "alt": {
+    "es": "Monitor de Mundaka Surf Academy surfeando en Mundaka",
+    "en": "A Mundaka Surf Academy instructor surfing in Mundaka"
+   }
+  },
+  {
+   "image": "xabier-layback",
+   "category": "instructors",
+   "alt": {
+    "es": "Monitor de Mundaka Surf Academy surfeando en Mundaka",
+    "en": "A Mundaka Surf Academy instructor surfing in Mundaka"
+   }
+  },
+  {
+   "image": "xabier-glassy-wall",
+   "category": "instructors",
+   "alt": {
+    "es": "Monitor de Mundaka Surf Academy surfeando en Mundaka",
+    "en": "A Mundaka Surf Academy instructor surfing in Mundaka"
+   }
+  },
+  {
+   "image": "xabier-snap",
+   "category": "instructors",
+   "alt": {
+    "es": "Monitor de Mundaka Surf Academy surfeando en Mundaka",
+    "en": "A Mundaka Surf Academy instructor surfing in Mundaka"
+   }
+  },
+  {
+   "image": "xabier-carve",
+   "category": "instructors",
+   "alt": {
+    "es": "Monitor de Mundaka Surf Academy surfeando en Mundaka",
+    "en": "A Mundaka Surf Academy instructor surfing in Mundaka"
+   }
+  },
+  {
+   "image": "xabier-trim",
+   "category": "instructors",
+   "alt": {
+    "es": "Monitor de Mundaka Surf Academy surfeando en Mundaka",
+    "en": "A Mundaka Surf Academy instructor surfing in Mundaka"
+   }
+  },
+  {
+   "image": "xabier-blue-wall",
+   "category": "instructors",
+   "alt": {
+    "es": "Monitor de Mundaka Surf Academy surfeando en Mundaka",
+    "en": "A Mundaka Surf Academy instructor surfing in Mundaka"
+   }
+  },
+  {
+   "image": "xabier-bottom-turn",
+   "category": "instructors",
+   "alt": {
+    "es": "Monitor de Mundaka Surf Academy surfeando en Mundaka",
+    "en": "A Mundaka Surf Academy instructor surfing in Mundaka"
+   }
+  },
+  {
+   "image": "xabier-dark-barrel",
+   "category": "instructors",
+   "alt": {
+    "es": "Monitor de Mundaka Surf Academy surfeando en Mundaka",
+    "en": "A Mundaka Surf Academy instructor surfing in Mundaka"
+   }
+  },
+  {
+   "image": "xabier-foam-line",
+   "category": "instructors",
+   "alt": {
+    "es": "Xabier en una pared de ola, delante de la espuma",
+    "en": "Xabier on a wave face, ahead of the whitewater"
+   }
+  }
+ ]
+}

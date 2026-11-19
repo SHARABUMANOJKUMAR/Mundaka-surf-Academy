@@ -1,0 +1,177 @@
+{
+  "$comment": "Instructor cards (website brief, section 5). Add an object to add an instructor; the grid grows by itself. photo = an image name in public/assets/img (4:5 crop, a different photo per person) or null while it is missing. languages and certificates are lists of {es, en}. Empty texts show as 'pending' in review mode. Never put two cards on the same photo.",
+  "instructors": [
+    {
+      "id": "xabier-gondra",
+      "photo": "xabi-portrait",
+      "name": {
+        "es": "Xabier Gondra León",
+        "en": "Xabier Gondra León"
+      },
+      "role": {
+        "es": "Instructor principal y fundador",
+        "en": "Head coach and founder"
+      },
+      "languages": [
+        {
+          "es": "Euskera (nativo)",
+          "en": "Basque (native)"
+        },
+        {
+          "es": "Castellano (nativo)",
+          "en": "Spanish (native)"
+        },
+        {
+          "es": "Inglés (C2)",
+          "en": "English (C2)"
+        }
+      ],
+      "bio": {
+        "es": "Me llamo Xabier Gondra, soy surfista local de Mundaka, apasionado del mar y con una vocación tremenda por enseñar a otros a buscar esa conexión que tengo yo con el mar. Empecé a surfear con tan solo cinco años, y desde entonces este deporte se ha convertido en mi absoluta pasión y mi forma de vida. Crecer en un entorno como el de Mundaka te marca, y el hecho de montar mi propia escuela es un sueño por el que llevo luchando durante mucho tiempo. Llevo dando clases de surf desde los 16 años y es lo que más me gusta hacer: entrenar con la gente, ver cómo evolucionan y transmitirles el respeto por las olas.",
+        "en": "My name is Xabier Gondra, a local surfer from Mundaka, deeply passionate about the ocean and driven by a strong desire to help others find that same connection to the sea that I have felt since I was a child. I started surfing at just five years old, and ever since, this sport has become my absolute passion and way of life. Growing up in a unique setting like Mundaka shapes who you are, and opening my own surf school is a dream I have fought for over a long time. I have been teaching surf classes since I was 16, and it is what I love doing most: training with people, watching them progress, and passing on a deep respect for the waves."
+      },
+      "certificates": [
+        {
+          "es": "Monitor de surf por la Euskal Surf Federazioa",
+          "en": "Surf Instructor by the Euskal Surf Federazioa"
+        },
+        {
+          "es": "Socorrista acuático (RFESS e International Life Saving)",
+          "en": "Lifeguard (Royal Spanish Lifesaving Federation and ILS)"
+        },
+        {
+          "es": "Primeros auxilios por la Cruz Roja",
+          "en": "First aid, Red Cross"
+        },
+        {
+          "es": "Soporte Vital Básico y DEA",
+          "en": "Basic Life Support and AED"
+        }
+      ]
+    },
+    {
+      "id": "mikel-agos",
+      "photo": null,
+      "name": {
+        "es": "Mikel Agos Francisco",
+        "en": "Mikel Agos Francisco"
+      },
+      "role": {
+        "es": "Monitor de surf",
+        "en": "Surf instructor"
+      },
+      "languages": [
+        {
+          "es": "Castellano (nativo)",
+          "en": "Spanish (native)"
+        },
+        {
+          "es": "Inglés (C2)",
+          "en": "English (C2)"
+        },
+        {
+          "es": "Alemán (B2)",
+          "en": "German (B2)"
+        },
+        {
+          "es": "Francés (B1)",
+          "en": "French (B1)"
+        }
+      ],
+      "bio": {
+        "es": "Me llamo Mikel Agos, tengo 18 años y el surf es mi gran pasión. Empecé a surfear a los 12 años y desde entonces el mar es parte de mi día a día. Llevo tres años dando clases a todos los niveles, desde quienes se suben por primera vez a una tabla hasta quienes quieren seguir mejorando. Mi objetivo es transmitir lo que he aprendido con mi propia experiencia para que aprender sea más fácil y llevadero, y que cada persona disfrute del surf tanto como yo. Además del surf, practico boxeo y snowboard, deportes que me aportan disciplina, equilibrio y control del cuerpo. Doy clases en castellano, alemán, inglés y francés, así que cada alumno puede aprender en su idioma.",
+        "en": "My name is Mikel Agos, I'm 18 years old, and surfing is my great passion. I started surfing at 12, and the ocean has been part of my everyday life ever since. I have been teaching for three years at all levels, from people standing on a board for the first time to those who want to keep improving. My goal is to pass on what I have learned through my own experience, so that learning is easier and more enjoyable, and everyone can love surfing as much as I do. Besides surfing, I practice boxing and snowboarding, which give me discipline, balance and body control. I teach in Spanish, German, English and French, so every student can learn in their own language."
+      },
+      "certificates": [
+        {
+          "es": "Monitor de surf por la Euskal Surf Federazioa",
+          "en": "Surf Instructor by the Euskal Surf Federazioa"
+        }
+      ]
+    },
+    {
+      "id": "roberto-suarez",
+      "photo": null,
+      "name": {
+        "es": "Roberto Suárez García",
+        "en": "Roberto Suárez García"
+      },
+      "role": {
+        "es": "Segundo instructor",
+        "en": "Second instructor / Assistant coach"
+      },
+      "languages": [
+        {
+          "es": "Castellano (nativo)",
+          "en": "Spanish (native)"
+        },
+        {
+          "es": "Inglés (B2)",
+          "en": "English (B2)"
+        }
+      ],
+      "bio": {
+        "es": "Me llamo Roberto Suárez García, soy un apasionado del deporte y del mar con una gran vocación por enseñar. Empecé a surfear en Mundaka con tan solo seis años y, desde entonces, este deporte se ha convertido en mi forma de vida, llevándome a disfrutar y surfear en muchas playas de todo el Cantábrico. Además de las olas, me apasionan los deportes en la naturaleza como la escalada. Esa inquietud por el movimiento y por ayudar a los demás a mejorar me llevó a estudiar el grado superior en Técnico Superior en Acondicionamiento Físico. Me encanta entrenar con la gente y llevarla al máximo nivel que puedan alcanzar. Llevo dando clases de surf desde los 16 años y lo que más disfruto es acompañar a cada alumno y ver cómo va evolucionando sesión tras sesión.",
+        "en": "My name is Roberto Suárez García, and I am deeply passionate about sports and the ocean, with a strong vocation for teaching. I started surfing in Mundaka at just six years old, and ever since, surfing has become my way of life, taking me to surf across many beaches all along the Cantabrian coast. Beyond the waves, I am passionate about outdoor sports such as climbing. That drive for movement and helping others improve led me to pursue a Higher Technician degree in Physical Conditioning. I love training with people and helping them reach the highest level they can achieve. I have been teaching surf lessons since I was 16, and what I enjoy most is guiding every student and watching them progress session after session."
+      },
+      "certificates": [
+        {
+          "es": "Técnico Superior en Acondicionamiento Físico (TSAF)",
+          "en": "Higher Technician in Physical Conditioning (TSAF)"
+        },
+        {
+          "es": "Monitor de tiempo libre",
+          "en": "Leisure and Youth Activities Instructor"
+        },
+        {
+          "es": "Socorrismo acuático",
+          "en": "Aquatic Lifeguard"
+        },
+        {
+          "es": "Monitor de piragüismo",
+          "en": "Canoeing and Kayaking Instructor"
+        },
+        {
+          "es": "Soporte Vital Básico y uso de Desfibrilador Externo Automatizado (DEA)",
+          "en": "Basic Life Support and Automated External Defibrillator (AED) operator"
+        }
+      ]
+    },
+    {
+      "id": "ur-ugalde",
+      "photo": null,
+      "name": {
+        "es": "Ur Ugalde Larrauri",
+        "en": "Ur Ugalde Larrauri"
+      },
+      "role": {
+        "es": "Monitor de surf",
+        "en": "Surf instructor"
+      },
+      "languages": [
+        {
+          "es": "Euskera (nativo)",
+          "en": "Basque (native)"
+        },
+        {
+          "es": "Castellano (nativo)",
+          "en": "Spanish (native)"
+        },
+        {
+          "es": "Inglés (C1)",
+          "en": "English (C1)"
+        }
+      ],
+      "bio": {
+        "es": "Me llamo Ur Ugalde Larrauri, tengo 17 años y soy surfista local de Mundaka. El surf forma parte de mi vida desde que era niño y he crecido practicándolo en esta costa, que conozco y siento como mi hogar. Soy un apasionado de este deporte y me hace ilusión compartir lo que he aprendido en el agua y ayudar a otras personas a disfrutar del surf.",
+        "en": "My name is Ur Ugalde Larrauri, I am 17 years old, and I am a local surfer from Mundaka. Surfing has been part of my life since I was a child, and I have grown up surfing along this coast, which I know and consider home. I am passionate about the sport and excited to share what I have learned in the water and help others enjoy surfing."
+      },
+      "certificates": [
+        {
+          "es": "Monitor de surf por la Euskal Surf Federazioa",
+          "en": "Surf Instructor by the Euskal Surf Federazioa"
+        }
+      ]
+    }
+  ]
+}

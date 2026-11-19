@@ -1,0 +1,61 @@
+/* Footer — deep teal, Logo 2 (badge), contact, pages, socials, legal links; floating WhatsApp button; cookie banner */
+.site-footer { background: var(--aqua-50); border-top: 1px solid var(--line); color: var(--ink-2); padding-top: clamp(3.5rem, 2.5rem + 4vw, 5.5rem); font-size: var(--step--1); }
+.site-footer a { color: var(--deep); text-decoration: none; }
+.site-footer a:hover { color: var(--teal); }
+.site-footer__grid { display: grid; grid-template-columns: 1.5fr 1fr 0.8fr 1fr; gap: 2.5rem; padding-bottom: 3rem; }
+.site-footer__badge img { width: 148px; height: auto; transition: rotate 0.8s var(--ease); }
+.site-footer__badge:hover img { rotate: -8deg; }
+.site-footer__title { color: var(--deep); font-size: var(--step-1); margin: 1.25rem 0 0.4rem; }
+.site-footer__tagline { max-width: 34ch; }
+.site-footer__ctas { display: flex; flex-wrap: wrap; gap: 0.6rem; margin-top: 1.25rem; }
+
+.site-footer__col h3 { color: var(--teal); font-size: var(--step--2); letter-spacing: 0.18em; text-transform: uppercase; margin-bottom: 1.1rem; }
+.site-footer__col ul { list-style: none; padding: 0; margin: 0; display: grid; gap: 0.55rem; }
+.site-footer__address { font-style: normal; display: grid; gap: 0.75rem; }
+.site-footer__address a, .site-footer__social a { display: inline-flex; gap: 0.6rem; align-items: flex-start; }
+.site-footer__address .icon, .site-footer__social .icon { color: var(--teal); margin-top: 0.15em; }
+.site-footer__social span { color: var(--ink-3); }
+.site-footer__legal { background: var(--aqua-100); padding-block: 1.1rem; }
+.site-footer__legal-inner { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 0.75rem 1.5rem; }
+.site-footer__legal p { margin: 0; }
+.site-footer__legal nav { display: flex; flex-wrap: wrap; gap: 0.4rem 1.25rem; }
+.site-footer__legal .linklike { color: var(--deep); text-decoration: none; font-size: inherit; }
+.site-footer__legal .linklike:hover { color: var(--teal); }
+
+@media (max-width: 1023px) { .site-footer__grid { grid-template-columns: 1fr 1fr; } .site-footer__brand { grid-column: 1 / -1; } }
+@media (max-width: 560px) { .site-footer__grid { grid-template-columns: 1fr; } }
+
+/* floating WhatsApp button, on every page */
+.wa-float {
+  position: fixed; right: clamp(14px, 2vw, 26px); bottom: clamp(14px, 2vw, 26px); z-index: 70;
+  display: grid; place-items: center; width: 60px; height: 60px; border-radius: 0;
+  background: var(--turq); color: var(--deep); box-shadow: 0 16px 30px -12px rgba(0, 50, 63, 0.55);
+  transition: transform 0.4s var(--ease), background 0.3s;
+}
+.wa-float .icon { width: 30px; height: 30px; }
+.wa-float::before { content: ""; position: absolute; inset: -6px; border-radius: 0; border: 2px solid var(--turq); opacity: 0; animation: waPulse 2.8s var(--ease) 2s infinite; }
+.wa-float:hover { transform: scale(1.08); background: var(--aqua); color: var(--deep); }
+@keyframes waPulse { 0% { opacity: 0.8; scale: 0.9; } 70%, 100% { opacity: 0; scale: 1.35; } }
+@media (prefers-reduced-motion: reduce) { .wa-float::before { animation: none; } }
+.menu-open .wa-float { display: none; }
+
+/* cookie banner: equal-weight choices, nothing external loads before a choice */
+.cookie-banner {
+  position: fixed; right: clamp(14px, 2vw, 26px); bottom: calc(clamp(14px, 2vw, 26px) + 74px); z-index: 80; width: min(400px, calc(100% - 24px));
+  padding: 1.25rem 1.35rem; border-radius: 0; background: #fff; border: 1px solid var(--line); box-shadow: var(--shadow);
+  font-size: var(--step--1);
+}
+.cookie-banner[hidden] { display: none; }
+.cookie-banner__title { font: 800 var(--step-0)/1.2 var(--font-head); color: var(--deep); margin-bottom: 0.35rem; }
+.cookie-banner__actions { display: flex; gap: 0.6rem; flex-wrap: wrap; }
+.cookie-banner__actions .btn { flex: 1; }
+@media (max-width: 560px) { .cookie-banner { right: 12px; bottom: 12px; } .has-cookie-banner .wa-float { display: none; } }
+.site-footer .btn, .site-footer .btn:hover { color: var(--fg); }
+
+/* brand partners (site.config.json → partners); a dashed placeholder while review mode is on */
+.partners { padding: 1.5rem 0 2rem; border-top: 1px solid var(--line); }
+.partners__title { margin: 0 0 1rem; font: 700 var(--step--2)/1.2 var(--font-head); letter-spacing: 0.18em; text-transform: uppercase; color: var(--teal); }
+.partners__list { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; align-items: center; gap: 1.5rem 2.5rem; }
+.partners__list img { height: 60px; width: auto; max-width: 170px; object-fit: contain; filter: grayscale(1); opacity: 0.8; transition: filter 0.3s, opacity 0.3s; }
+.partners__list a:hover img { filter: none; opacity: 1; }
+.partners--ph .review-note { margin: 0; }

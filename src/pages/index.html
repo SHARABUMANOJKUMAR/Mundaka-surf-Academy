@@ -1,0 +1,118 @@
+<!--page {"key": "home", "slug": "index", "header": "light"} -->
+<section class="hero" aria-labelledby="hero-title">
+  <div class="hero__media">
+    {{#if config.hero.video}}{{img name=hero-urdaibai mobile=hero-urdaibai-m sizes="100vw" alt=home.hero.videoAlt class="hero__img hero__still" loading=eager fetchpriority=high}}<video class="hero__video" muted loop playsinline preload="none" aria-hidden="true" tabindex="-1" data-hero-video data-src="{{asset:video/}}{{config.hero.video}}.mp4" data-src-phone="{{asset:video/}}{{config.hero.video}}-phone.mp4"></video>{{else}}{{img name=mundaka-lineup mobile=mundaka-lineup-m sizes="100vw" alt=home.hero.photoAlt class="hero__img" loading=eager fetchpriority=high}}{{/if}}
+  </div>
+  <div class="container hero__inner">
+    <h1 class="hero__title" id="hero-title">
+      <span class="hero__word" aria-hidden="true"><span style="--i:0">M</span><span style="--i:1">U</span><span style="--i:2">N</span><span style="--i:3">D</span><span style="--i:4">A</span><span style="--i:5">K</span><span style="--i:6">A</span></span>
+      <span class="hero__sub" aria-hidden="true">Surf Academy</span>
+      <span class="visually-hidden">{{config.brand.name}} — {{home.hero.h1}}</span>
+    </h1>
+    <p class="hero__tagline">{{home.hero.tagline}}</p>
+    {{> section-actions}}
+  </div>
+</section>
+
+<section class="section xabi" id="xabi" aria-labelledby="xabi-title">
+  <div class="container xabi__grid">
+    <figure class="xabi__photo frame">
+      {{img name=xabi-portrait sizes="(min-width: 900px) 38vw, 80vw" alt=home.xabi.photoAlt}}
+    </figure>
+    <div class="xabi__text">
+      <p class="eyebrow">{{home.xabi.eyebrow}}</p>
+      <h2 class="title" id="xabi-title">{{home.xabi.title}}</h2>
+      <p class="intro-text">{{home.xabi.p1}}</p>
+      <p class="intro-text">{{home.xabi.p2}}</p>
+      <a class="link-arrow" href="{{link:about}}">{{home.xabi.cta}}<svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+      {{> section-actions}}
+    </div>
+  </div>
+</section>
+
+<section class="section section--tint classes" id="classes" aria-labelledby="classes-title">
+  <div class="container">
+    <div class="section-head section-head--row">
+      <div>
+        <p class="eyebrow">{{home.classes.eyebrow}}</p>
+        <h2 class="title" id="classes-title">{{home.classes.title}}</h2>
+      </div>
+      <a class="link-arrow" href="{{link:lessons}}">{{home.classes.all}}<svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+    </div>
+    <div class="class-grid">
+      <a class="class-card" href="{{link:lessons#group}}">
+        <span class="class-card__img">{{img name=stock-group-women sizes="(min-width: 1100px) 23vw, (min-width: 700px) 45vw, 40vw" alt=-}}</span>
+        <span class="class-card__body"><span class="class-card__num">01</span><span class="class-card__name">{{lessons.group.name}}</span><span class="class-card__text">{{lessons.group.short}}</span><span class="class-card__price">{{common.from}} <strong>{{from-price:group}}</strong> {{lessons.table.perPersonDay}}</span><span class="class-card__more">{{home.classes.more}}<svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></span></span>
+      </a>
+      <a class="class-card" href="{{link:lessons#advanced}}">
+        <span class="class-card__img">{{img name=green-curl sizes="(min-width: 1100px) 23vw, (min-width: 700px) 45vw, 40vw" alt=-}}</span>
+        <span class="class-card__body"><span class="class-card__num">02</span><span class="class-card__name">{{lessons.advanced.name}}</span><span class="class-card__text">{{lessons.advanced.short}}</span><span class="class-card__price">{{common.from}} <strong>{{from-price:advanced}}</strong> {{lessons.table.perPersonDay}}</span><span class="class-card__more">{{home.classes.more}}<svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></span></span>
+      </a>
+      <a class="class-card" href="{{link:lessons#private}}">
+        <span class="class-card__img">{{img name=stock-private sizes="(min-width: 1100px) 23vw, (min-width: 700px) 45vw, 40vw" alt=-}}</span>
+        <span class="class-card__body"><span class="class-card__num">03</span><span class="class-card__name">{{lessons.private.name}}</span><span class="class-card__text">{{lessons.private.short}}</span><span class="class-card__price">{{common.from}} <strong>{{from-price:private}}</strong> {{lessons.table.perPersonHour}}</span><span class="class-card__more">{{home.classes.more}}<svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></span></span>
+      </a>
+      <a class="class-card" href="{{link:lessons#inclusive}}">
+        <span class="class-card__img">{{img name=inclusive-laida sizes="(min-width: 1100px) 23vw, (min-width: 700px) 45vw, 40vw" alt=-}}</span>
+        <span class="class-card__body"><span class="class-card__num">04</span><span class="class-card__name">{{lessons.inclusive.name}}</span><span class="class-card__text">{{lessons.inclusive.short}}</span><span class="class-card__price">{{common.from}} <strong>{{from-price:inclusive}}</strong> {{lessons.table.perPersonHour}}</span><span class="class-card__more">{{home.classes.more}}<svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></span></span>
+      </a>
+    </div>
+    {{> section-actions}}
+  </div>
+</section>
+
+<section class="section where" id="where" aria-labelledby="where-title">
+  <div class="container where__grid">
+    <div class="where__text">
+      <p class="eyebrow">{{home.where.eyebrow}}</p>
+      <h2 class="title" id="where-title">{{home.where.title}}</h2>
+      <p class="where__address"><svg class="icon" aria-hidden="true"><use href="#i-pin"/></svg><span>{{config.brand.street}}<br>{{config.brand.postalCode}} {{config.brand.locality}}, {{config.brand.region}}</span></p>
+      <p>{{home.where.text}}</p>
+      <a class="btn btn--teal" href="{{config.maps.directions}}" target="_blank" rel="noopener"><svg class="icon" aria-hidden="true"><use href="#i-pin"/></svg>{{common.cta.directions}}</a>
+      {{> section-actions}}
+    </div>
+    {{> map-embed}}
+  </div>
+</section>
+
+<section class="section section--tint forecast" id="forecast" aria-labelledby="forecast-title">
+  <div class="container">
+    <div class="section-head section-head--row">
+      <div>
+        <p class="eyebrow">{{home.forecast.eyebrow}}</p>
+        <h2 class="title" id="forecast-title">{{home.forecast.title}}</h2>
+        <p class="lead">{{home.forecast.lead}}</p>
+      </div>
+      <a class="link-arrow" href="{{link:surf}}">{{home.forecast.more}}<svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+    </div>
+    <div class="forecast__grid">
+      <article class="panel">
+        <h3 class="panel__title"><svg class="icon" aria-hidden="true"><use href="#i-wave"/></svg>{{surf.waves.title}} <span>· Windguru</span></h3>
+        <div class="embed embed--windguru" data-embed data-group="forecast" data-kind="windguru" data-spot="{{config.forecast.windguruSpot}}" data-hours="48" data-lang="{{locale}}">
+          <div class="embed__ph"><svg class="icon embed__icon" aria-hidden="true"><use href="#i-wave"/></svg><p class="embed__text">{{common.embed.windguruText}}</p><button type="button" class="btn btn--teal btn--sm" data-embed-load>{{common.embed.forecastLoad}}</button><a class="embed__alt" href="{{config.forecast.windguru}}" target="_blank" rel="noopener">windguru.cz</a></div>
+        </div>
+      </article>
+      <article class="panel">
+        <h3 class="panel__title"><svg class="icon" aria-hidden="true"><use href="#i-sun"/></svg>{{surf.weather.title}} <span>· AEMET</span></h3>
+        <div class="embed embed--aemet" data-embed data-group="forecast" data-src="{{config.forecast.aemetWidget}}" data-title="{{surf.weather.frameTitle}}">
+          <div class="embed__ph"><svg class="icon embed__icon" aria-hidden="true"><use href="#i-sun"/></svg><p class="embed__text">{{common.embed.aemetText}}</p><button type="button" class="btn btn--teal btn--sm" data-embed-load>{{common.embed.forecastLoad}}</button><a class="embed__alt" href="{{config.forecast.aemet}}" target="_blank" rel="noopener">aemet.es</a></div>
+        </div>
+      </article>
+    </div>
+    {{> section-actions}}
+  </div>
+</section>
+
+<section class="section reviews" id="reviews" aria-labelledby="reviews-title">
+  <div class="container">
+    <div class="section-head section-head--row">
+      <div>
+        <p class="eyebrow">{{home.reviews.eyebrow}}</p>
+        <h2 class="title" id="reviews-title">{{home.reviews.title}}</h2>
+      </div>
+      {{#if config.reviews.googleUrl}}<a class="link-arrow" href="{{config.reviews.googleUrl}}" target="_blank" rel="noopener">{{home.reviews.google}}<svg class="icon" aria-hidden="true"><use href="#i-external"/></svg></a>{{/if}}
+    </div>
+    <div class="review-grid">{{reviews}}</div>
+    {{> section-actions}}
+  </div>
+</section>

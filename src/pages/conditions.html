@@ -1,0 +1,44 @@
+<!--page {"key": "conditions", "slug": "conditions", "header": "light"} -->
+<section class="page-hero page-hero--plain page-hero--short" aria-labelledby="cond-title">
+  <div class="container page-hero__inner">
+    <p class="eyebrow">{{conditions.eyebrow}}</p>
+    <h1 class="page-hero__title" id="cond-title">{{conditions.title}}</h1>
+    <p class="lead">{{conditions.lead}}</p>
+  </div>
+  <img class="page-hero__badge" src="{{src:badge-clear@320}}" alt="" width="320" height="320" aria-hidden="true">
+</section>
+
+<section class="section legal" aria-label="{{conditions.title}}">
+  <div class="container container--narrow prose">
+    {{#if config.payments.enabled}}<h2>{{conditions.h.booking}}</h2>
+    <ul>
+      <li>{{conditions.items.deposit}}</li>
+      <li>{{conditions.items.full}}</li>
+      <li>{{conditions.items.balance}}</li>
+    </ul>{{else}}<h2>{{conditions.h.bookingRequest}}</h2>
+    <ul>
+      <li>{{conditions.request.how}}</li>
+    </ul>{{/if}}
+    <h2>{{#if config.payments.enabled}}{{conditions.h.cancel}}{{else}}{{conditions.h.cancelRequest}}{{/if}}</h2>
+    <ul>
+      {{#if config.payments.enabled}}<li>{{conditions.items.cancel24}}</li>
+      <li>{{conditions.items.cancelLate}}</li>{{else}}<li>{{conditions.request.cancel}}</li>{{/if}}
+      <li>{{conditions.items.weather}}</li>
+    </ul>
+    <h2>{{conditions.h.attendance}}</h2>
+    <ul>
+      <li>{{conditions.items.noshow}}</li>
+      <li>{{conditions.items.late}}</li>
+      <li>{{conditions.items.conduct}}</li>
+    </ul>
+    <h2>{{conditions.h.health}}</h2>
+    <ul>
+      <li>{{conditions.items.health}}</li>
+    </ul>
+    {{#if config.payments.enabled}}<h2>{{conditions.h.examples}}</h2>
+    {{deposit-table}}{{/if}}
+    <h2>{{conditions.h.lessons}}</h2>
+    <p>{{conditions.lessonsText}}</p>
+    {{> section-actions}}
+  </div>
+</section>

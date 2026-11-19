@@ -1,0 +1,61 @@
+/* Header — white bar, Logo 1 on the left, menu, ES/EN and "Book now" on every page. Shrinks while scrolling down. */
+.site-header { position: sticky; top: 0; z-index: 60; background: rgba(255, 255, 255, 0.96); backdrop-filter: saturate(1.4) blur(10px); border-bottom: 1px solid var(--line); transition: box-shadow 0.4s; }
+.past-hero .site-header, .site-header.is-min { box-shadow: 0 10px 30px -24px rgba(0, 50, 63, 0.5); }
+.hdr { display: flex; align-items: center; gap: 1.25rem; height: var(--header-h); width: min(1400px, 100% - 2 * var(--gutter)); margin-inline: auto; transition: height 0.45s var(--ease); }
+.site-header.is-min .hdr { height: calc(var(--header-h) - 16px); }
+.hdr__logo { flex: none; display: block; }
+.hdr__logo .logo { width: 200px; transition: width 0.45s var(--ease); }
+.site-header.is-min .hdr__logo .logo { width: 170px; }
+
+.hdr__nav { position: relative; display: flex; align-items: center; gap: 0.15rem; margin-inline: auto; }
+.hdr__nav a {
+  position: relative; z-index: 1; padding: 0.55rem 0.75rem; border-radius: 0; text-decoration: none; white-space: nowrap;
+  font: 600 0.86rem/1 var(--font-head); color: var(--deep); transition: color 0.3s;
+}
+.hdr__nav a[aria-current="page"] { color: var(--teal); }
+.hdr__nav a[aria-current="page"]::after { content: ""; position: absolute; left: 50%; bottom: 0.15rem; width: 5px; height: 5px; margin-left: -2.5px; border-radius: 50%; background: var(--turq); }
+.hdr__pill { position: absolute; top: 50%; left: 0; height: 2.2rem; width: var(--pill-w, 0); translate: var(--pill-x, 0) -50%; border-radius: 0; background: var(--aqua-50); opacity: 0; transition: translate 0.45s var(--ease), width 0.45s var(--ease), opacity 0.3s; }
+.hdr__nav.is-hovering .hdr__pill { opacity: 1; }
+
+.hdr__end { display: flex; align-items: center; gap: 0.75rem; flex: none; }
+.lang-switch { display: inline-flex; padding: 3px; border-radius: 0; background: var(--aqua-50); border: 1px solid var(--line); }
+.lang-switch a { padding: 0.35rem 0.6rem; border-radius: 0; font: 700 0.74rem/1 var(--font-head); letter-spacing: 0.06em; color: var(--deep); text-decoration: none; }
+.lang-switch a[aria-current] { background: var(--deep); color: #fff; }
+.hdr__book { min-height: 44px; }
+
+.menu-toggle { display: none; width: 46px; height: 46px; border: 1px solid var(--line); border-radius: 0; background: #fff; cursor: pointer; place-items: center; }
+.menu-toggle__bars, .menu-toggle__bars::before, .menu-toggle__bars::after { display: block; width: 18px; height: 2px; border-radius: 0; background: var(--deep); transition: transform 0.4s var(--ease), background 0.2s; }
+.menu-toggle__bars { position: relative; }
+.menu-toggle__bars::before, .menu-toggle__bars::after { content: ""; position: absolute; left: 0; }
+.menu-toggle__bars::before { top: -6px; }
+.menu-toggle__bars::after { top: 6px; }
+.menu-open .menu-toggle__bars { background: transparent; }
+.menu-open .menu-toggle__bars::before { transform: translateY(6px) rotate(45deg); }
+.menu-open .menu-toggle__bars::after { transform: translateY(-6px) rotate(-45deg); }
+
+.mobile-menu { position: fixed; inset: var(--header-h) 0 0; z-index: 55; overflow-y: auto; background: #fff; padding: 1.5rem var(--gutter) 2.5rem; display: flex; flex-direction: column; gap: 2rem; }
+.mobile-menu[hidden] { display: none; }
+.mobile-menu__list { list-style: none; margin: 0; padding: 0; counter-reset: m; }
+.mobile-menu__list a { display: flex; align-items: baseline; gap: 0.8rem; padding: 0.6rem 0; border-bottom: 1px solid var(--line); font: 700 1.5rem/1.2 var(--font-head); color: var(--deep); text-decoration: none; }
+.mobile-menu__list a::before { counter-increment: m; content: counter(m, decimal-leading-zero); font-size: 0.75rem; color: var(--teal); }
+.mobile-menu__list a[aria-current="page"] { color: var(--teal); }
+.mobile-menu__foot { display: flex; flex-wrap: wrap; gap: 0.75rem; align-items: center; }
+
+@media (max-width: 1239px) {
+  .hdr__nav { display: none; }
+  .hdr__end { margin-left: auto; }
+  .menu-toggle { display: grid; }
+}
+@media (max-width: 1023px) {
+  .hdr__logo .logo, .site-header.is-min .hdr__logo .logo { width: 150px; }
+  .site-header.is-min .hdr { height: var(--header-h); }
+}
+@media (max-width: 560px) {
+  .hdr { gap: 0.4rem; }
+  .hdr__end { gap: 0.4rem; }
+  .hdr__end .lang-switch { padding: 0; }
+  .hdr__end .lang-switch a { min-width: 40px; min-height: 44px; padding: 0 0.3rem; }
+  .hdr__logo .logo, .site-header.is-min .hdr__logo .logo { width: 132px; }
+  .hdr__book { width: 44px; padding: 0; }
+  .hdr__book span { display: none; }
+}

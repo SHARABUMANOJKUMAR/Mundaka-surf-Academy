@@ -1,0 +1,51 @@
+<!--page {"key": "contact", "slug": "contact", "header": "light"} -->
+<section class="page-hero page-hero--plain page-hero--short" aria-labelledby="contact-title">
+  <div class="container page-hero__inner">
+    <p class="eyebrow">{{contact.eyebrow}}</p>
+    <h1 class="page-hero__title" id="contact-title">{{contact.title}}</h1>
+    <p class="lead">{{contact.lead}}</p>
+  </div>
+  <img class="page-hero__badge" src="{{src:badge-clear@320}}" alt="" width="320" height="320" aria-hidden="true">
+</section>
+
+<section class="section contact" aria-labelledby="channels-title">
+  <div class="container contact__grid">
+    <div class="contact__channels">
+      <h2 class="title title--sm" id="channels-title">{{contact.channels}}</h2>
+      <ul class="channel-list">
+        <li><svg class="icon" aria-hidden="true"><use href="#i-pin"/></svg><div><span class="channel-list__k">{{contact.address}}</span><a href="{{config.maps.directions}}" target="_blank" rel="noopener">{{config.contact.address}}</a></div></li>
+        <li><svg class="icon" aria-hidden="true"><use href="#i-mail"/></svg><div><span class="channel-list__k">Email</span><a href="mailto:{{config.contact.email}}">{{config.contact.email}}</a></div></li>
+        <li><svg class="icon" aria-hidden="true"><use href="#i-phone"/></svg><div><span class="channel-list__k">{{legalCommon.phone}}</span><a href="tel:+34633290073">{{config.contact.phone}}</a></div></li>
+        <li><svg class="icon" aria-hidden="true"><use href="#i-whatsapp"/></svg><div><span class="channel-list__k">WhatsApp</span><a href="{{wa-url}}" target="_blank" rel="noopener">{{config.whatsapp.display}}</a></div></li>
+        <li><svg class="icon" aria-hidden="true"><use href="#i-instagram"/></svg><div><span class="channel-list__k">Instagram</span><a href="{{config.social.instagram.url}}" target="_blank" rel="noopener">{{config.social.instagram.handle}}</a></div></li>
+        <li><svg class="icon" aria-hidden="true"><use href="#i-facebook"/></svg><div><span class="channel-list__k">Facebook</span><a href="{{config.social.facebook.url}}" target="_blank" rel="noopener">{{config.social.facebook.handle}}</a></div></li>
+      </ul>
+      {{> section-actions}}
+    </div>
+    <form class="contact__form panel" novalidate data-contact-form>
+      <h2 class="title title--sm">{{contact.formTitle}}</h2>
+      <p class="demo-note" data-demo-note hidden>{{contact.demo}}</p>
+      <div class="fields">
+        <div class="field" data-field="name"><label for="c-name">{{book.fields.name}}</label><input id="c-name" name="name" autocomplete="name" required><p class="field-error">{{book.errors.name}}</p></div>
+        <div class="field" data-field="email"><label for="c-email">{{book.fields.email}}</label><input id="c-email" name="email" type="email" autocomplete="email" required><p class="field-error">{{book.errors.email}}</p></div>
+        <div class="field field--full" data-field="phone"><label for="c-phone">{{book.fields.phone}}</label><input id="c-phone" name="phone" type="tel" autocomplete="tel"><p class="field-error">{{book.errors.phone}}</p></div>
+        <div class="field field--full" data-field="message"><label for="c-message">{{contact.message}}</label><textarea id="c-message" name="message" rows="5" required></textarea><p class="field-error">{{contact.messageError}}</p></div>
+      </div>
+      <div class="hp" aria-hidden="true"><label>Company <input name="company" tabindex="-1" autocomplete="off"></label></div>
+      <div class="field field--check" data-field="consent"><label><input type="checkbox" name="consent" required> <span>{{book.fields.consentA}} <a href="{{link:privacy}}" target="_blank">{{book.fields.consentLink}}</a>.</span></label><p class="field-error">{{book.errors.consent}}</p></div>
+      <div class="booking__alert" data-contact-alert role="alert" hidden></div>
+      <button class="btn btn--teal" type="submit">{{contact.send}}</button>
+      <p class="form-done" data-contact-done tabindex="-1" hidden></p>
+    </form>
+  </div>
+</section>
+
+<section class="section section--tint" aria-labelledby="map-title">
+  <div class="container">
+    <div class="section-head section-head--row">
+      <h2 class="title title--sm" id="map-title">{{home.where.title}}</h2>
+      <a class="btn btn--teal" href="{{config.maps.directions}}" target="_blank" rel="noopener"><svg class="icon" aria-hidden="true"><use href="#i-pin"/></svg>{{common.cta.directions}}</a>
+    </div>
+    {{> map-embed}}
+  </div>
+</section>

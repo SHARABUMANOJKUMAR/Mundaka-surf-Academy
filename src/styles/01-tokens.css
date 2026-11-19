@@ -1,0 +1,50 @@
+/* Design tokens — the four colours sampled from the two logos (website brief, section 2) on a white background:
+   deep teal #004A5C, badge teal #006C88, turquoise #30CBC6, aqua #A0F5EE.
+   Turquoise and aqua are fills (buttons, accents, tints), never text on white: they are too light to read.
+   Type: Montserrat (headings, matches the MUNDAKA lettering) + Inter (text). */
+:root {
+  --deep: #004a5c;
+  --deep-900: #00323f;
+  --teal: #006c88;
+  --teal-700: #005a72;
+  --turq: #30cbc6;
+  --turq-600: #26b5b0;
+  --aqua: #a0f5ee;
+  --aqua-50: #effbfa;
+  --aqua-100: #dcf6f3;
+  --white: #ffffff;
+
+  --ink: #0e3440;
+  --ink-2: #3d5b63;
+  --ink-3: #5e777e;
+  --line: rgba(0, 74, 92, 0.13);
+  --line-strong: rgba(0, 74, 92, 0.28);
+  --danger: #b3262f;
+  --review: #9a5b00;
+  --review-bg: #fff6e3;
+
+  --font-head: "Montserrat", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --font-sans: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+
+  --step--2: clamp(0.8125rem, 0.8rem + 0.05vw, 0.85rem);
+  --step--1: clamp(0.84rem, 0.82rem + 0.1vw, 0.9rem);
+  --step-0: clamp(1rem, 0.97rem + 0.15vw, 1.0625rem);
+  --step-1: clamp(1.12rem, 1.06rem + 0.3vw, 1.3rem);
+  --step-2: clamp(1.4rem, 1.25rem + 0.75vw, 1.85rem);
+  --step-3: clamp(1.85rem, 1.5rem + 1.7vw, 2.8rem);
+  --step-4: clamp(2.4rem, 1.8rem + 3vw, 4.2rem);
+
+  --gutter: clamp(1rem, 0.4rem + 2.6vw, 3rem);
+  --max: 1240px;
+  --radius: 0;
+  --radius-lg: 0;
+  --shadow: 0 26px 48px -26px rgba(0, 50, 63, 0.45);
+  --shadow-soft: 0 12px 32px -20px rgba(0, 50, 63, 0.4);
+  --ease: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-in-out: cubic-bezier(0.76, 0, 0.24, 1);
+  --header-h: 84px;
+}
+
+@media (max-width: 1023px) {
+  :root { --header-h: 70px; }
+}

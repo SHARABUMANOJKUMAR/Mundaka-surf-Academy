@@ -1,0 +1,101 @@
+{
+  "$comment": "Central site settings. Empty strings mean 'not supplied yet': the related UI stays hidden. Run `npm run build` after editing. Never put secret keys here; this file is published.",
+
+  "siteUrl": "",
+  "reviewMode": true,
+
+  "brand": {
+    "name": "Mundaka Surf Academy",
+    "locality": "Mundaka",
+    "region": "Bizkaia",
+    "postalCode": "48360",
+    "street": "Erreka 6",
+    "country": "ES",
+    "geo": { "lat": 43.4043, "lng": -2.70206 }
+  },
+
+  "locales": {
+    "$comment": "Spanish is the main language (served at the site root), English lives under /en/.",
+    "default": "es",
+    "enabled": ["es", "en"]
+  },
+
+  "contact": {
+    "email": "mundakasurfacademy@gmail.com",
+    "phone": "+34 633 29 00 73",
+    "address": "Erreka 6, 48360 Mundaka, Bizkaia",
+    "openingHours": ""
+  },
+
+  "social": {
+    "instagram": { "url": "https://www.instagram.com/mundakasurfacademy/", "handle": "@mundakasurfacademy" },
+    "facebook": { "url": "https://www.facebook.com/mundakasurfacademy", "handle": "@mundakasurfacademy" }
+  },
+
+  "whatsapp": {
+    "$comment": "Official number from the client (12 Nov 2026) — change it here (digits with country code, no + or spaces) when the business number arrives; every WhatsApp button on the site uses this one value.",
+    "number": "34633290073",
+    "display": "633 29 00 73"
+  },
+
+  "hero": {
+    "$comment": "Home hero background. Empty = the main photo (mundaka-lineup). A name = the drone video: public/assets/video/<name>.mp4 (landscape) and <name>-phone.mp4 (portrait cut for phones); its first-frame still is the image hero-urdaibai / hero-urdaibai-m in public/assets/img.",
+    "video": "hero-urdaibai"
+  },
+
+  "enquiry": {
+    "$comment": "provider: none | formspree | webhook | netlify. 'none' keeps the forms in demo mode: they validate and review but tell the visitor nothing was sent.",
+    "provider": "none",
+    "endpoint": ""
+  },
+
+  "payments": {
+    "$comment": "15 % deposit (or 100 % if the customer prefers) online; prepared but OFF until the Stripe functions are deployed with their secret keys (server/README.md). The browser never sees card data.",
+    "enabled": false,
+    "provider": "stripe",
+    "mode": "deposit",
+    "depositPercent": 15,
+    "currency": "EUR",
+    "checkoutEndpoint": "/api/create-checkout-session"
+  },
+
+  "forecast": {
+    "windguruSpot": "48688",
+    "windguru": "https://www.windguru.cz/48688",
+    "aemetWidget": "https://www.aemet.es/es/eltiempo/prediccion/municipios/mostrarwidget/mundaka-id48068?w=g4p01110001ohmffffffw600z190x4f86d9t95b6e9r0s4n1",
+    "aemet": "https://www.aemet.es/es/eltiempo/prediccion/municipios/mundaka-id48068"
+  },
+
+  "maps": {
+    "embed": "https://maps.google.com/maps?q=Erreka%206%2C%2048360%20Mundaka%2C%20Bizkaia%2C%20Spain&z=16&output=embed",
+    "directions": "https://www.google.com/maps/dir/?api=1&destination=Erreka%206%2C%2048360%20Mundaka%2C%20Bizkaia%2C%20Spain"
+  },
+
+  "legal": {
+    "$comment": "Website owner (LSSI-CE), as given by the client on 12 Nov 2026.",
+    "owner": "Xabier Gondra León",
+    "taxId": "20975102E",
+    "address": "Barrio Erreka, nº 6, 48360 Mundaka (Bizkaia)",
+    "phone": "+34 633 29 00 73"
+  },
+
+  "photographer": {
+    "$comment": "Photographer of the Mundaka photos on Our story (client feedback 5); credited under the academy photo and in 'Mundaka en fotos'.",
+    "name": "@31talasac",
+    "url": "https://www.instagram.com/31talasac/"
+  },
+
+  "partners": {
+    "$comment": "Brand partners for the footer (e.g. Billabong). Empty = hidden. Each: { \"name\": \"…\", \"logo\": \"image name in public/assets/img\", \"url\": \"https://…\" } (url optional: without it the logo is not a link).",
+    "items": [
+      { "name": "Indio", "logo": "partner-indio", "url": "" },
+      { "name": "Billabong", "logo": "partner-billabong", "url": "" }
+    ]
+  },
+
+  "reviews": {
+    "$comment": "Hand-picked testimonials: { \"name\": \"…\", \"date\": \"2026-08-14\", \"rating\": 5, \"text\": { \"es\": \"…\", \"en\": \"…\" } }. googleUrl = the academy's Google reviews link once the Business Profile exists.",
+    "googleUrl": "",
+    "items": []
+  }
+}
